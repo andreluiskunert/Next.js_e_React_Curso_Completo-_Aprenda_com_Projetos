@@ -1,0 +1,53 @@
+Agora nós vamos começar o nosso primeiro capítulo de conteúdo e nesse capítulo não poderia ser diferente
+
+eu vou começar fazendo a revisão do yet.
+
+Obviamente eu vou introduzir já um Macchi nesse capítulo mas vamos criar um projeto mexe.
+
+Mas vamos ver algumas funcionalidades básicas do México mais como o México e a versão framework do yet.
+
+Então a base do México é então como eu não posso assumir que todos os alunos que vão fazer o curso de
+
+México tem uma base sólida e aqui eu vou fazer toda aquela revisão do que é componente comunicação entre
+
+componentes.
+
+Mostrar para vocês aqui um pouco os objetivos desse modo.
+
+Então nós vamos criar um projeto Macchi mas vamos falar o básico de Macchi e o Yeti eu vou mostrar como
+
+criar componentes funcionais e também devo falar como criar componentes e classe.
+
+Vou falar um pouquinho sobre propriedades componentes comunicação entre os componentes vou mostrar componentes
+
+com o Estado na sala de renderização condicional renderização de ministro de componentes e vários aspectos
+
+e nem todos os aspectos estão necessariamente aqui expressos nessa lista que eu coloquei objetivos.
+
+Mas o fato é que a gente vai falar do básico aqui pra que você possa ter essa fundamentação sólida e
+
+a partir daí você ficar tranquilo com essa parte componente da ação e focar o máximo possível em Macchi
+
+em desenvolvimento de pequenos projetos.
+
+Esse é um capítulo que será baseado em exercícios e os outros capítulos eu vou me basear mais em projetos
+
+mesmo que seja projetos muito pequenos e vai fazer projetos para que a gente possa exercitar tudo aquilo
+
+que a gente viu nesse capítulo e cada novo capítulo vai fazer um projeto que R$ 100.
+
+Algumas das funcionalidades do Macchi.
+
+Então esse vai ser um objetivo muito forte aqui no nosso curso.
+
+Então esse capítulo é um capítulo base que vai te dar os fundamentos principalmente do YET para que
+
+você conheça já aqui talvez 70 por cento no Macchi.
+
+Tem a ver com o Yet ou seja o conhecimento mais vasto que você precisa ter e uma vez que você conhece
+
+o aqui pra você aprendeu mexe não é muito complicado.
+
+Tá bom.
+
+Então esse é o nosso primeiro capítulo que nós vamos fazer uma revisão Wyatt.
