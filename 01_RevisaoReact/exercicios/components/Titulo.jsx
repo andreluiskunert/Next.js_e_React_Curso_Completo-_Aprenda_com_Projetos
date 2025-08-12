@@ -1,9 +1,20 @@
-export default function Titulo() {
-    return(
+export default function Titulo(props) {
+    return props.pequeno? (
         <>
-        <h1> Titulo </h1>
-        <h2>subtitulo</h2>
-        <marquee> Estou no Compomentes/ Titulos </marquee>
+        <h1> {(props).principal} Titulo </h1>
+        <h2> {(props).secundario}subtitulo</h2>
+     
         </>
+       
+    ) : (
+     
+        <>
+        <h1> {(props).principal} Titulo </h1>
+        <h2> {(props).secundario}subtitulo</h2>
+     
+        </>
+       
     )
+
+    
 }
