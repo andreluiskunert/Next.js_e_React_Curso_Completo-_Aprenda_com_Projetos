@@ -1,3 +1,4 @@
+import Filho from "./Filho"
 export default function Filho(pros) {
     return(
         <>
