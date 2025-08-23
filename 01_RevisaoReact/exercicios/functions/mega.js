@@ -1,16 +1,13 @@
-export function mega(quantidade = 6, numeros = []) {
-    let qtde = +quantidade
+export function mega(qtde = 6, numeros = []){
     if(qtde < 6 && qtde > 60) {
-        throw "Quantidade inválida!"
+        throw "quantidade invalido"
     }
-    
-    if(numeros.length === qtde) {
-        return numeros.sort((n1, n2) => n1 - n2)
+    if(numeros.length === qtde){
+        return numeros.sort((n1, n2) => n1 - n2 )
     }
-
-    const numeroAleatorio = parseInt(Math.random() * 60) + 1
-    if(!numeros.includes(numeroAleatorio)) {
-        return mega(qtde, [...numeros, numeroAleatorio])
+    const numeroAletorio = parseInt(Math.random() * 60) + 1
+    if(!numeros.includes(numeroAletorio)){
+        return mega(qtde, [...numeros, numeroAletorio])
     } else {
         return mega(qtde, numeros)
     }
