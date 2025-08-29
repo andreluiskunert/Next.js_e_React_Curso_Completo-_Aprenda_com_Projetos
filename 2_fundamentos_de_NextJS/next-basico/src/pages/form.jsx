@@ -6,7 +6,7 @@ export default function Form(props) {
     const [usuarios, setUsuarios] = useState([])
     
     async function salvarUsuario() {
-        await fetch('/api/form', {
+         await fetch('/api/form', {
             method: 'POST',
             body: JSON.stringify({ nome, idade })
         })
