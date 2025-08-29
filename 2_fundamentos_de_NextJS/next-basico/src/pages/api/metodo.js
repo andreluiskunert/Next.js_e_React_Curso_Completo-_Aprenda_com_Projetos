@@ -1,4 +1,4 @@
-export default (req, res) =>{
+const metodo = (req, res) =>{
     if(req.method === 'GET') {
          res.status(200).json({nome: "Juca_Piruca"})
     } else{
@@ -6,3 +6,4 @@ export default (req, res) =>{
     }
 
 }
+export default metodo
