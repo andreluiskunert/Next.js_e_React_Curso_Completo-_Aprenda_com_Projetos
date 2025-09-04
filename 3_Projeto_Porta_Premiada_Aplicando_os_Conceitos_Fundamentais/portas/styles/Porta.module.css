@@ -1,0 +1,24 @@
+.area {
+    display: flex;
+    width: var(--area-porta-altura);
+    height: var(--area-porta-largura);
+}
+
+.estrutura {
+    display: flex;
+    flex-grow: 1;
+    border-left: 5px;
+}
+
+.porta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: chocolate;
+    padding: 15px;
+
+}
+
+.numero {
+    font-size: 3rem;
+}
