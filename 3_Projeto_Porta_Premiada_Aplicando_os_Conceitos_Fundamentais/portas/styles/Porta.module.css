@@ -1,13 +1,17 @@
 .area {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: var(--area-porta-altura);
     height: var(--area-porta-largura);
+    margin: 5PX;
 }
 
 .estrutura {
     display: flex;
     flex-grow: 1;
     border-left: 5px;
+    width: 90%;
 }
 
 .porta {
@@ -21,4 +25,9 @@
 
 .numero {
     font-size: 3rem;
+}
+.chao{
+    height: 10px;
+    width: 100%;
+    background-color: #ddd;
 }
