@@ -1,0 +1,83 @@
+Só nós vamos agora mexer um pouco na estrutura da porta.
+
+Eu vou criar ali vivi a volta duplicação de biquíni e vou duplicar aqui para matar.
+
+A gente tem uma divida em dar ao outro e vou chamar esse fora de área que seria a área da porta e outra
+
+coisa que eu vou criar também.
+
+Vou duplicar esse time de cima e duplicar aqui embaixo para facilitar as cópias e eu vou criar o que
+
+seria o frame da porta lembra que atuou como porta na minha frente.
+
+Você tem aquela estrutura de madeira eu vou colocar aqui em português estrutura.
+
+Você tem uma estrutura de madeira que é exatamente onde a porta encaixada está e eu quero trabalhar
+
+com essa estrutura aqui eu vou definir uma classe C se é assim para representar a área então aqui dentro
+
+eu vou criar o que seria a área da porta e a área da porta vai ter essas duas variáveis aqui.
+
+Vou mover a altura e a largura para a parte da área aqui tirar esse tempo porque ela vai ficar realmente
+
+ali e eu vou querer trabalhar especificamente aqui com a parte da estrutura da porta para a gente ter
+
+algumas bolas aqui a gente conseguir trabalhar de uma forma interessante então a estrutura da porta
+
+aqui eu também vou trabalhar com display Flex display Flex.
+
+Vou trabalhar aqui com display flex também na estrutura.
+
+Você mudou alguma coisa mudou alguma coisa aqui em relação à nossa estrutura então eu vou.
+
+Em relação à porta pedi para que ele possa crescer e ocupar o espaço inteiro então vou colocar aqui
+
+a propriedade flat.
+
+Pode ser Flex Google ou só flex para C o que aí ele vai crescer e ocupar o espaço inteiro.
+
+Então olhando aqui ainda assim ele ocupou o espaço inteiro porque beleza definia que à altura o flex
+
+também tem que ter um flex grosso aqui em cima.
+
+Para a estrutura também crescer.
+
+E agora sim ele tá ocupando o espaço legal então tanto a estrutura tem que crescer para ocupar o espaço
+
+inteiro que é exatamente esse espaço que foi definido aqui na área legal.
+
+Então agora que eu tenho uma estrutura eu vou querer trabalhar com as bordas.
+
+Vou colocar bordas nas laterais direita e esquerda e a parte superior.
+
+Então vou colocar aqui ou borda left.
+
+Vou definir cinco pixels lembrando que como definir esse valor aqui fixo as bordas estarão costuradas
+
+dentro dessa área que está principalmente até porque há uma borda e um outro elemento então cinco pixels
+
+vou definir a cor sólida e vou pagar uma com Cabral estão colocando aqui.
+
+A gente vai ter a primeira bola aqui na lateral.
+
+Vou colocar essa mesma borda na parte de cima então vou colocar aquele tópico olhando.
+
+A gente tem a borda aqui que seria o frame a estrutura da porta e finalmente nós temos do lado direito
+
+lit.
+
+Pronto olhando aqui o resultado nós temos a borda na lateral esquerda a borda em cima e a borda na lateral
+
+direita tem algumas outras coisas que a gente vai fazer mas eu vou deixar para fazer nas próximas ao
+
+se aproximar a gente vai trabalhar com o chão a gente tem aqui o que seriam a base lisinha para representar
+
+o chão.
+
+Eu vou tanto criar estrutura como criar o CSS a gente vai fazendo os ajustes necessários e outras classes
+
+que a gente já criou.
+
+A gente continua.
+----
+estou cansando...irei descansar...

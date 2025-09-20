@@ -1,0 +1,58 @@
+Miniatura da aula
+1:16 / 1:25
+
+Pessoal nós vamos agora criar rapidamente nosso projeto novo e vou chamar ele coloca aqui X Play make
+
+up.
+
+é o nome do nosso projeto vai se porta.
+
+Eu vou colocar tudo em português está certo pra cá mais simples e não criar nenhuma barreira desnecessária
+
+relacionado ao toma lá cliente Mac App.
+
+O nome do nosso projeto vai ser Portas é basicamente ele vai criar todo o processo ou não projetos em
+
+Lisboa Abril visual tudo com músicas que já fiz anteriormente e com isso a gente vai estar tal projeto
+
+na Porta 13 mil então a sala vai ser super rápida e diferente da outra que explica um pouco mais.
+
+Então projeto porta se vou abrir aqui Luís Augusto no colégio e na forma como você preferir.
+
+Existem muitas formas mesmo que você não tem o comando com o terminal e com isso agora MPX Davi Horta
+
+13 mil.
+
+E ele não fecha aqui.
+
+Ele vai mostrar para a gente o projeto criado Magal pronto apareceu aqui.
+
+Isso na próxima aula a gente começa a desenvolver os nossos primeiros componentes para fazer o nosso
+
+projeto do problema de Monte Raul que eu mostrei pra vocês na aula passada.
+git push origin main --force
+Enumerating objects: 9518, done.
+Counting objects: 100% (9518/9518), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5846/5846), done.
+Writing objects: 100% (9511/9511), 99.64 MiB | 7.64 MiB/s, done.
+Total 9511 (delta 3397), reused 9488 (delta 3386), pack-reused 0
+remote: Resolving deltas: 100% (3397/3397), completed with 5 local objects.
+remote: error: Trace: 9134dec62f734ea98b121b28cb0c15c8b6cd11e76f4bc4bf2c32f81c6b4c81f2
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File node_modules/@next/swc-linux-x64-gnu/next-swc.linux-x64-gnu.node is 136.30 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File node_modules/@next/swc-linux-x64-musl/next-swc.linux-x64-musl.node is 136.17 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/andreluiskunert/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/andreluiskunert/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos.git'
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ npm install
+npm error code ENOENT
+npm error syscall open
+npm error path /home/desenvolvedor/Cod3r/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos/package.json
+npm error errno -2
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/desenvolvedor/Cod3r/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos/package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: /home/desenvolvedor/.npm/_logs/2025-09-17T02_26_33_540Z-debug-0.log
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ 

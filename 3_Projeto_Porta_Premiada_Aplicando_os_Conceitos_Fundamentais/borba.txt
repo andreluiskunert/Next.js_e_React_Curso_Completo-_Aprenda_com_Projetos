@@ -1,0 +1,89 @@
+Pessoal ou se a gente avançar para a parte do componente porta que vai ser o próximo componente que
+
+nós vamos desenvolver na nossa aplicação.
+
+Eu queria chamar a atenção de vocês para um propriedade que está escrito aqui no nosso arquivo CSS global
+
+que já vem por padrão no México e que eu uso pessoalmente em praticamente todos os meus projetos pessoais.
+
+Talvez até em todos quer mudar essa propriedade boxe Saison pra borra botas ou marchar pra vocês.
+
+Na prática tem que ser bem breve porque são aula em aula parênteses aqui no nosso curso só pra explicar
+
+essa propriedade porque a gente vai trabalhar com tamanhos e é importante que você saiba a implicação
+
+de ter essa propriedade citada se você já conhece o que significa boxe então você pode eventualmente
+
+até pular sala eu vou colocar aqui o display pra ser flex só pra gente ter usá la na mesma linha e vou
+
+criar aqui.
+
+Vou colocar o estádio pra gente definia aqui por exemplo a largura terá o tamanho da largura vai ser
+
+200 pixels vou definir a altura de 200 pixels vou definir uma outra propriedade que vai ser o Beckham
+
+corre para ser.
+
+E vou definir aqui outra propriedade que vai ser um borda para ter o tamanho de 20 pixels.
+
+Vai ser uma bola sólida e a cor da borda vai ser branca então coloca aqui.
+
+Parte legal vou definir um ao outro e dividem o mesmo tamanho.
+
+Vou colocar aqui um acordo frente só para diferenciar as duas e vou tirar borda que vai acontecer nesse
+
+cenário.
+
+Você vai ter duas caixas exatamente do mesmo tamanho.
+
+Por quê.
+
+Porque a gente está usando essa propriedade.
+
+Boxe.
+
+Qual é o valor padrão dessa propriedade e o que tem de boxe.
+
+Que é que significa isso que ele vai passar a definir o tamanho das equipes na altura e largura desconsiderando
+
+a borda que significa que eu terei 200 pixels de largura e 200 pixels de altura.
+
+Relacionado ao conteúdo ou seja a bola estará do lado de fora porque significa que agora essa Caixa
+
+que tem 240 pixels já que o conteúdo vermelho a 200 por duzentos e eu tenho aqui 20 pixels em cima e
+
+20 pixels embaixo e nas laterais também estão até 240 por 240.
+
+E aí essa aqui como não tem borda o conteúdo é 200 200 como eu pedi pra c então eu acho que essa abordagem
+
+de colocar a borda fora do tamanho fica um pouco mais complicado você fazer cálculos e tal.
+
+Então quando você usa essa propriedade pra c o borra box o que vai acontecer é que ele vai considerar
+
+a borda dentro do tamanho que você pediu.
+
+Eu não pedi aqui pra ser reduzem se por 200 o que significa que ele vai considerar a borda de 20 de
+
+todos os lados e que o conteúdo interno vai ser 160 pixels com 20 e borda em cima embaixo.
+
+Ou seja a parte vermelha aqui que é o conteúdo é menor do que a parte roxa que é 200 por 200.
+
+Eu acho que fica mais fácil você trabalhar dimensionamento não só eu mas muita gente muda essa propriedade
+
+e coloca que o asterisco para que isso seja aplicado a todos os elementos do HTML.
+
+Então todos os elementos que a gente for trabalhar terá o box saison.
+
+Considerando também a borda ou seja não apenas o conteúdo mais consideram na borda.
+
+E essa é uma forma bem interessante de trabalhar então se não tiver por ventura essa propriedade aí
+
+coloque porque a gente vai assumir o nosso projeto que você está usando essa propriedade bode Box.
+
+Beleza então só um pequeno parêntese eu vou voltar aqui pro nosso Código anterior que é o código do
+
+presente e na próxima aula a gente continua pra fazer o próximo componente que é o componente que eu
+
+vou tirar esse display aqui é o nosso próximo exemplo vai ser trabalhar com um componente da porta tão
+
+até aproximá la.
