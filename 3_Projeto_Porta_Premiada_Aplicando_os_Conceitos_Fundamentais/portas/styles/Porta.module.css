@@ -55,10 +55,12 @@
     border-right: 5px solid yellow;
 }
 
-.selecionada .numero {
-    color: yellow;
-}
-
-.selecionada .macaneta {
+.selecionada .macaneta{
     background-color: yellow;
+}
+.monstro {
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto;
+  display: block;
 }
