@@ -1,0 +1,356 @@
+Só agora nós vamos fazer aqui uma pequena mudança de contexto em vez de trabalhar dentro do nosso componente
+
+porta.
+
+Eu vou criar aqui na nossa aplicação uma outra pasta que vai representar uma classe de modelo vou criar
+
+aqui uma pasta chamada Model é outra coisa que eu queria apontar para vocês é o seguinte a padronização
+
+que eu vou usar durante o curso vai ser os meus arquivos em português e eu vou colocar só o nome das
+
+pastas em inglês está Model componentes.
+
+Isso até porque ele já usa Pen já usa e está já usa publique.
+
+E aí eu vou manter a padronização das pastas em inglês.
+
+Mais os nomes dos arquivos como único arquivo que eu preciso realmente ter aqui na minha aplicação e
+
+ainda posso criar o nome que eu quiser.
+
+Vou criar o nome dos arquivos em português para simplificar o máximo possível.
+
+O que é que nós vamos ter aqui em relação ao modelo mais um mês tem apenas um único arquivo que vai
+
+ser o arquivo que apresenta uma porta vou colocar aqui letra minúscula mesmo porta ponto.
+
+Esse aqui não vai ter código JS x vou simplesmente criar um lá assim que vai representá os dados de
+
+uma porta então vou exportar por padrão aqui uma clássico eu vou chamar de porta e a classe porta vai
+
+ter uma série de atributos mais precisamente a porta vai ter quatro atributos então o primeiro atributo
+
+é o número da porta.
+
+Aí você pode perguntar leu porque é que você colocou aqui um raio x Tag.
+
+Esse Pegue pra dizer que esse atributo é um atributo privado.
+
+A gente poderia até fazer aqui um a outra classe e um outro arquivo senão vou colocar aqui.
+
+Ele passa em JavaScript.
+
+é importante lembrar que eu estou trabalhando aqui com um plug in chamado com o anel.
+
+Então se eu quiser executar um código diretamente sem me preocupar com o nosso projeto eu consigo fazer
+
+algo criar aqui uma classe em pessoa e vou dizer que a pessoa tem um atributo nome certo.
+
+Aqui eu posso por exemplo criar uma constante chamada pessoa que sabe o que pessoa pessoa que só uma
+
+revisão de JavaScript está eu vou colocar aqui um construtor construtor.
+
+Vou receber aqui seria no homi e vou fazer aqui.
+
+Desse ponto não homi recebe um nome milhao daqui eu vou passá la Pedro.
+
+Então nesse caso se eu fizer um console outro logo aí tem um ponto no homi executado.
+
+Você vai ver o resultado ele vai mostrar achar Pedro como separar.
+
+Sendo que isso eu colocar Rashid aqui no Omi e eu obviamente tendo cada ataque pra esta não Omi.
+
+O que significa que agora eu não consigo mais acessar o nome Kelly Faris e eu também não consigo acessar
+
+o nome diretamente porque se eu fizer isso ele vai gerar um erro dizendo que eu estou tentando acessar
+
+um campo privado ou seja essa convenção do Java Scripts de nomes que começa no Castelli é algo significativo
+
+e algo que gera um efeito de definir um atributo privado e você pode dizer leu e como é que eu faço
+
+agora para acessar o atributo nome.
+
+Existem algumas possibilidades uma é você criar aquilo que seria um gato nome que você retornaria e
+
+desse ponto está aqui.
+
+Lembrando que sempre trabalhando com classe e tem que usá lo desse é praticamente o tempo todo para
+
+referenciar os atributos e tal.
+
+Então aqui no caso eu vou ter que o 10 nome como método acessado você vai ter aqui de novo o Pedro funcionando.
+
+Uma outra possibilidade é você que há um metro dessa forma aqui que é vai criar uma propriedade aqui.
+
+Nesse cenário você não vai acessar usando Guedes você vai acessar como se fosse um atributo normal ao
+
+nome você nem sabe que está acessando esse método aqui.
+
+Então tá.
+
+Agora você vai conseguir acessar Pedro.
+
+E se você tentar alterar o nome não tem o metro que vai fazer isso pra você colocar aqui Ana exaltando
+
+o resultado continua sem ter.
+
+Porquê.
+
+Porque você não define um metro pra alterar o nome e esse atributo aqui privado.
+
+E você também não pode alterar o atributo privado diretamente que ele vai gerar uma exceção.
+
+Então o que eu posso fazer aqui é se eu quiser posso criar um ou outro método aqui sete.
+
+E nesse caso eu vou receber aqui o nome a que eu posso fazer desse nome recebe nome e a aplicar também
+
+alguma validação que você queira.
+
+Então nesse caso executado você vai ter estado.
+
+Ana já definiu que também tem o método sete.
+
+Só que aqui você acessa como se fosse um atributo embora internamente ele vai chamar esse método ou
+
+esse método aqui eu tenho como aplicar algum tipo de processamento.
+
+Então nesse aspecto é bem interessante.
+
+Então só para mostrar pra você que o Reichstag é sim algo significativo dentro do JavaScript.
+
+Então vou ter aqui voltado um atributo número um ou outro atributo pra saber se ele tem presente que
+
+eu posso colocar aqui tem presente.
+
+Foi assim que achar um nome melhor a gente muda.
+
+Tem aqui sei lhe dá um número tem presente e se a porta está selecionada e finalmente se a porta está
+
+aberta.
+
+Esses são os quatro atributos que nós temos dentro da porta a porta pode ter presente ela pode estar
+
+selecionada ela pode estar aberta e a porta tem um número melhor.
+
+Então vou copiar aqui um construtor construtor do JavaScript e eu vou passar os atributos aqui para
+
+a criao porta né que vai ser um número.
+
+Depois tem presente e eu vou inicializar por padrão como falso.
+
+O outro atributo vai ser selecionada por padrão também vai ser falso é o último.
+
+Se está aberta por padrão também será falso e aqui a gente vai inicializar os atributos então vou pagar
+
+esse C4 aqui já para há tempo.
+
+Vou só ali aqui vou selecionar múltiplas minhas com opção como para baixo o Alt Control para baixo.
+
+Acredito que o Windows seja essa tecla desse ponto isso recebe.
+
+é aí que eu vou colocar primeiro número depois tem pra gente selecionada e finalmente aberta então inicializar
+
+aí os quatro atributos relacionados aos meus quatro atributos privados da classe e outras coisas que
+
+eu vou precisar fazer.
+
+Vai ser criar não vou criar uso método 7 vou criar somente os metros que vai obter esses valores então
+
+não vou ter aqui o Gatti número que vai retornar desse ponto número fazem a mesma coisa aqui para o
+
+tem presente.
+
+Então coloca um presentinho vou duplicar esse método e vou criar um outro que vai ser selecionado e
+
+finalmente ou até um outro método TI que vai verificar se a porta está aberta tão aberta.
+
+Pronto.
+
+Agora consigo acessar e lê esses valores.
+
+Eu vou fazer uma estratégia que seria uma estratégia mais voltada para a programação funcional.
+
+Eu vou ter alguns métodos aqui né.
+
+Essa classe de modelo não vai ser uma classe de modelo anêmica ou seja uma classe que simplesmente vai
+
+ter só os atributos e pronto.
+
+Eu vou criar aqui o que seria um modelo né.
+
+Aqui eu também vou entrar em outras áreas que são mais avançadas e tal mas o fato é que eu quero colocar
+
+os comportamentos da porta dentro da própria classe porta.
+
+Então por exemplo existe um método que vai ser o método pra eu fazer uma alternância na seleção ou seja
+
+com o clique na porta se ela não estiver selecionada ela passa a ser selecionada.
+
+Se ela tiver selecionada se eu clicar ela vai selecionar.
+
+Então eu vou criar aqui um método chamado alterna a seleção certo seria o nome que eu pensei aqui.
+
+Aqui a gente vai fazer o seguinte eu vou criar uma constante de um lado ela
+
+recebe o contrário de 10 ponto selecionada lembrando que se eu fizer aí só 10 pontos selecionada eu
+
+estou acessando esse método aqui que obviamente internamente basta o atributo privado então posso fazer
+
+isso como eu posso acessar o atributo privado direto mais eu vou acessar aqui.
+
+Esse método legal que eu estou fazendo aqui.
+
+Se o valor do selecionar tiver verdadeiro eu quero que ele passe a ser falso positivo e falso.
+
+Eu quero que passe a ser verdadeiro.
+
+Então aqui nós temos duas abordagens diferentes com relação a esse método chamado altera a seleção.
+
+Porquê.
+
+Porque a gente pode transformar esse método em um método que vai mexer diretamente nos atributos de
+
+instância do objeto ou seja a gente vai modificar os atributos do objeto que é digamos assim a abordagem
+
+mais tranquila e a abordagem mais usual que seria basicamente criar um método sete pra cá pra conseguir
+
+alterar o valor selecionada para Verdadeiro ou Falso falso verdadeiro.
+
+E aqui eu poderia simplesmente tirar isso colocar desse ponto a hashtag selecionada recebe o contrário
+
+e inclusive poder até usar o valor privado mesmo o contrário do que tem hoje armazenado na variável.
+
+Se tiver falso passará a ser verdadeira se tiver verdadeiro aqui passará a ser falso.
+
+Só que eu não quero fazer essa abordagem eu quero que esse método não modifique o objeto atual mas que
+
+ele retorne uma nova instância de uma porta só uma porta com o valor alterado.
+
+Que assim eu consigo trabalhar de uma forma mais funcional não mexo no objeto original gero uma cópia.
+
+Você leu isso.
+
+Estranho não gerar uma cópia do objeto não é isso acontece em JavaScript em várias situações.
+
+Por exemplo suponha que você vai criar aqui um array de dez números de 1 até 10 e você vai colocar isso
+
+aqui dentro de uma constante chamada números de números na Magal crê que a mim constante devo fazer
+
+números.
+
+Ponto Filter.
+
+Vou passar aqui uma função para filtrar cada um dos números um número que cada um deles eu vou pagar.
+
+Número Módulo 2 que tem que ser igual a zero.
+
+O que significa que eu vou pagar apenas os valores pares pagar uma constante que colocar em valores
+
+pares.
+
+Eu vou ter aqui os valores originais continua sendo uso da ISO ou seja isso aqui não modificou o Harry
+
+e seu olhar que os valores pares.
+
+Você vai ver que ele tem apenas os valores painel 2 4 6 8 ideias.
+
+Então esse é o método que pertence ao rei que não causa uma modificação original.
+
+A mesma coisa eu vou trabalhar aqui no conceito da minha classe eu vou fazer o seguinte eu vou retornar
+
+um novo objeto porta com o mesmo número com a mesma informação se tem presente ou não.
+
+Desse ponto tem presente aqui no caso eu vou usar o atributo que eu acabei de criar e esse aqui selecionada.
+
+E finalmente nós temos aqui o 10 ponto aberta então de uma forma muito simples eu jurei que só a nova
+
+instância de porta com o valor que é esse valor aqui selecionado como sendo um valor alterado dessa
+
+forma eu tenho a tranquilidade de saber que a minha classe e porta vai ter valores imutáveis e eu não
+
+vou mexer nos valores internos da porta.
+
+Durante a execução do meu programa sempre que eu chamar um metro que altera dados internos geram uma
+
+nova instância.
+
+Eu vou fazer isso pra alternar a seleção.
+
+Vou fazer isso pra um método que eu vou criar agora que é seu método abri ou seja quando eu quiser abrir
+
+uma porta e simplesmente vou pegar o atributo aberta e a porta nem no feminino aberta eu vou colocar
+
+como centro e aqui eu voltei a mesma desse ponto selecionada.
+
+Só que o último atributo aberto eu vou passar como sendo verdadeiro ali porque ele está criando esse
+
+atributo aqui só pra ficar mais fácil ficar tipo assim tu solto aqui tá fica meio estranho é esse truque
+
+não estou aqui significa o atributo aberta então fica mais ilegível Cole tá mas se você quiser colocar
+
+o tu diretamente aqui não tem problema aqui e desse ponto número um equipamento desse ponto o número
+
+que passou pra não gerar nenhum problema legal tão desse ponto o número desse ponto que tem pra gente
+
+desse ponto selecionado aqui aberta é outro caso selecionado que é a variável que eu fiz alternância
+
+e tem uma opção eu posso também colocar alternar a marcação por qd selecionar fica estranho não é mais
+
+desmarcar fica mais fácil que eu tenho um metro que eu vou precisar mais na frente chamada desmarcar
+
+que seria pra eu selecionar porque mais eu vou já que estou usando a seleção mesmo vou colocar la na
+
+certa.
+
+é basicamente que eu vou.
+
+Nessa versão vai se colocar selecionada como sendo falso porque vai ter momento que eu vou querer selecionar
+
+todas as portas.
+
+Então esse método aqui vai ser útil para ele selecionar tão selecionada recebe falso e a estrutura é
+
+a mesma estrutura desse aqui só que aqui eu estou alternando a seleção então esses são os três comportamentos
+
+que eu vou precisar que esses três comportamentos alteram o estado da porta.
+
+Só que em vez de mexer na instância atual eu estou retornando uma nova instância e aí só para aqueles
+
+que estão iniciando digamos assim no mundo da programação já habitual é só uma escolha minha.
+
+Assim como programador você pode escolher alterar diretamente os valores internos do objeto e isso pode
+
+gerar efeitos colaterais que você eventualmente acabar enfrentando na sua aplicação eu resolvi deixar
+
+esses valores imutáveis e sempre gerar uma nova instância de porta essa foi uma escolha que eu fiz eu
+
+achei que bem mais interessante dessa forma você pode ter diferentes tipos de abordagem como você vai
+
+desenvolver na sua aplicação.
+
+Tranquilo a minha sugestão se você quiser testar outras abordagens deixa pra testar no final do capítulo
+
+quando o projeto tiver todo funcional.
+
+Aí você começa a mexer e vê onde gera impacto.
+
+Não fiz essa mexida aqui e o projeto continua funcionando perfeitamente já adaptei isso e continuou
+
+funcionando perfeitamente e você vai fazendo as adaptações que você acha que são mais interessantes.
+
+Beleza então fizemos aqui um passo importante que é definir o nosso modelo a porta e o nosso componente
+
+porta vai receber um atributo do tipo porta em vez de eu passar diretamente os atributos soltos como
+
+é o caso aqui que eu comecei a passar na selecionada e tal eu vou passar uma classe do tipo porta que
+
+assim eu consigo passar todos os atributos jogáveis e eventualmente quando algum evento acontecer a
+
+gente pode e retornando uma porta alterada.
+
+Coisas do tipo então a gente vai ver um pouco mais da estratégia nas próximas aulas mas o nosso componente
+
+porta vai receber essa classe porta que eu defini aqui tá bom.
+
+Na próxima aula a gente continua e até lá.
+
