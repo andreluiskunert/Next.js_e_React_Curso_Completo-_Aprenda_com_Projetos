@@ -34,7 +34,7 @@
 
 .macaneta {
     position: absolute;
-    
+
     align-self: flex-start;
     top: calc(0.45 * var(--area-porta-altura));
     height: 20px;
@@ -55,12 +55,10 @@
     border-right: 5px solid yellow;
 }
 
-.selecionada .macaneta{
-    background-color: yellow;
+.selecionada .numero {
+    color: yellow;
 }
-.monstro {
-  max-width: 90%;
-  max-height: 90%;
-  margin: auto;
-  display: block;
+
+.selecionada .macaneta {
+    background-color: yellow;
 }

@@ -1,0 +1,197 @@
+Agora que a gente já tem a porta feita pela mesa grande parte dela parte é estrutura de CSS.
+
+Nós já temos aqui a questão da nossa classe A gente acabou de fazer também aqui um integração com script.
+
+Definimos a nossa classe de modelo o que está faltando agora a gente tem aqui já o que seria o nosso
+
+Estado e a gente faz essa integração dos eventos da porta ou seja quais são os dois eventos que a gente
+
+vai acabar disparando na porta seria o clique da porta e o click na maçaneta ou no clicar na maçaneta
+
+a porta vai abri.
+
+Está faltando também um CSS correspondente a você mostrar exibia a tela aberta nem a porta aberta melhor
+
+dizendo de cor ao clicar aqui na porta ele vai fazer o trabalho de seleção e vai selecionar.
+
+Caso a porta esteja selecionada legal uma das coisas que eu gosto de pensar com relação a componentes
+
+mais complexos como é o caso de uma porta dessa.
+
+Eu gosto muitas vezes é tratar a porta como se fosse um input de um formulário.
+
+Já pensaram como assim e como assim você vai tratar a porta como se fosse um input de um formulário
+
+show mostrar pra vocês aqui um exemplo.
+
+Eu vou criar aqui um pudim Takeshi vai aparecer na tela porque é um pouco estranho bicho só coloca aqui
+
+um flex Direction para colo.
+
+E fica mais interessante que o input e sim o ataque a porta embaixo.
+
+Aqui ele está como Estado não controlado com a gente já comentou posso digitar qualquer coisa e tal.
+
+Quais são as duas propriedades que a gente usa no iPod.
+
+Como a gente quer ter controle sobre esse input.
+
+A gente vai usar.
+
+Eu vou criar aqui um outro estado.
+
+Só que venceu a porta do rock aqui um valor textual sei lá ponto por ponto e aqui você coloca texto
+
+e aqui vai ser o 7 Táxi Legal.
+
+Então se eu colocar aqui falou apontando o texto.
+
+A gente vai ter agora um componente controlado.
+
+Certo Ele mata gerar aqui uma advertência.
+
+A gente já falou sobre isso né porque não tem que está mais temporário.
+
+O fato é que agora tem um componente controlado eu não consigo escrever mais letal mais.
+
+Eu tenho a possibilidade de colocar aqui o bom X ou seja sempre que o valor mudar ele vai chamar essa
+
+função passando o evento no caso o elemento de mudança e a partir do evento eu consigo chamar que o
+
+7 texto usando qualquer esquina da minha parte para ficar mais fácil tem aqui o evento.
+
+Ponto a Ponto velho dessa forma agora a gente tem um componente controlado escrevi aqui ele vai funcionar
+
+corretamente o que eu quero dizer.
+
+A porta como se fosse um iPod.
+
+A gente pode tratar até os atributos com o mesmo nome.
+
+Ou seja em vez de o passar o atributo porta eu passa ao atributo do velho valor e sempre que eu clicar
+
+aqui na porta.
+
+Isso aqui vai disparar uma função que vai gerar uma nova porta com os valores alterados.
+
+Essa é a dinâmica do que estou tentando construir aqui.
+
+Certo.
+
+Então nesse caso se a gente quiser adaptar para ter exatamente os mesmos valores eu vou fazer uma concessão
+
+digamos assim porque eu estou trabalhando praticamente tudo com português mais como o valor aqui em
+
+inglês está principalmente aqui muitos Xing ficarem um pouco estranho eu colocar aqui um evento seria
+
+na mudança ou sei lá ficarei um pouco estranho colocar um evento com um nome diferente está pelo menos
+
+então a criatividade agora de pensar não em português que seja bem interessante talvez algo do tipo
+
+quando mudar.
+
+E aí você passa aqui por exemplo a função essa função vai ser chamada quando houver mudança então quando
+
+houver uma mudança fica muito muito grande.
+
+Lá está mais de qualquer forma eu vou tentar padronizar a porta pra ter esses mesmos dois atributos
+
+aqui que são bem comuns e encontrados em vários tipos de input.
+
+Quando você trabalha com um formulário é a nossa porta.
+
+Se você parar para pensar ela é um chute.
+
+Ela é o input de um objeto do tipo o porta móvel eu passo o porta moda que é uma classe e essa classe.
+
+Ela consegue evoluir automaticamente de acordo com os métodos que eu criei e o método é que ao selecionar
+
+que eu alterne a seleção o método abri então a partir desses três métodos ele vai gerar uma nova porta
+
+com o valor modificado e assim a gente vai conseguir integrar com o nosso componente.
+
+Se.
+
+Evento a acontecer então manda as formas que a gente pode fazer aqui.
+
+Por enquanto eu estou passando a porta.
+
+Eu poderia modificar aqui o meu componente para a envelhecer repórter recebeu o velho que seria o valor
+
+certo fazendo isso para a gente não perder a compatibilidade com código.
+
+Eu posso tirar isso aqui e colocar porta recebi o próprio ponto o velho já que no final das contas o
+
+valor de fato é uma porta e o resto continua funcionando.
+
+E aqui não está dando erro porque esse código aqui j SX.
+
+Mas se eu colocar ele pra c ts X você vai ver que ele vai começar a reclamar dizendo Você colocou porta
+
+mais a minha idade o que eu espero receber aqui nesse componente é um outro parâmetro que no caso aqui
+
+é o parâmetro velho valor legal então aqui mais ou menos como o iPod agora a tá sabendo o valor da porta
+
+exatamente um porta móvel que a gente definiu aqui.
+
+Distanciou ele com apenas o número um legal a que ele tá que eu recebi já corrigiu para outro corrigiu
+
+o problema e nós temos aqui a porta funcionando agora com o atributo do velho que é que eu quero fazer
+
+na próxima aula nós vamos agora colocar o que seria o bom Cheng ou seja sempre que eu gerar um evento
+
+na porta seja pra selecionar o D selecioná ou abrir a porta eu vou disparar um monte de gente pra quem
+
+tenha uma referência do meu componente saiba que houve uma modificação.
+
+Assim como no texto quando você digita alguma coisa aqui no texto ele gera montagens e aí você consegue
+
+fazer digamos assim um componente controlado a mesma forma quando eu clicar na porta para abri a porta
+
+ou mesmo pra selecionar o D selecionar o método onde será chamado.
+
+E aí o usuário vai receber como parâmetro uma nova porta e a partir dessa nova porta ele vai conseguir
+
+por exemplo gerenciar o Estado do componente por exemplo com esse valor pelo que a gente criou.
+
+Nós temos o Estado que é o que exatamente uma porta que tem um número um mas em nenhum momento eu o
+
+chamei para alterar o valor da variável.
+
+Então quero fazer isso junto com muita gente.
+
+Foi exatamente o que eu fiz aqui.
+
+Eu queria um texto 7 texto quando ele chamou muita gente com o evento eu peguei o texto novo aqui ao
+
+ponto Tab de Porto Velho e aqui eu citei o novo valor do texto e assim não consigo evoluir.
+
+O estado do meu input eu quero fazer exatamente a mesma coisa nesse mesmo paralelo com a porta que vai
+
+ter também um valor e vai ter na próxima aula.
+
+Esse método de mostrar isso pra vocês aproximá lo para não ficar tudo concentrado numa aula só.
+
+E aí pessoal tou gastando tempo em fazer essa formação de base e mostrar algumas coisas que são ideias
+
+que eu tive.
+
+Eu posso tratar porta como se fosse um input e tal são ideias que são interessantes que podem te ajudar
+
+no dia a dia na hora de você construir os componentes da tratar ele de uma forma simples você passa
+
+dados pode ser inclusive uma clássica já está trabalhando aqui é um formato um pouco mais complexo mas
+
+tudo isso vai te ajudar bastante na hora que você foi desenvolver os seus próprios projetos então em
+
+vez de fazer bem rápido e explicando e atropelando a melhor eu para explicar cada coisa e mostrar para
+
+vocês um pouco da motivação para daí vocês entenderem o processo por mais que eu possa gravar esse mesmo
+
+projeto na metade do tempo é melhor que eu explique mais e que fique bem claro aquilo que me motivou
+
+a tomar algumas decisões.
+
+Beleza torna proximal a gente vai acrescentar aqui um monte de gente na porta para que a gente possa
+
+ser notificado sempre que a porta modificar.
