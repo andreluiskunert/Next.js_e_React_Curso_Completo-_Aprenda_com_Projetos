@@ -1,0 +1,155 @@
+Então agora pessoal a gente vai integrar o que seria fazer com que sempre que houver mudança dentro
+
+do componente porta o componente que tem a porta no caso aqui que é o nosso componente Roma ele possa
+
+ser notificado legal que é o que acontece com Putin.
+
+é assim que acontece um evento dentro do iPod e a gente consegue ser notificado a partir do último mês
+
+para fazer isso.
+
+Nós vamos entrar aqui no nosso componente porta e eu vou dizer que o componente porta além de ter uma
+
+propriedade chamada de velho vai ter aqui uma propriedade chamada Hunting.
+
+é o tipo dessa propriedade.
+
+Vai ser uma função uma função e eu vou colocar aqui e essa função eu vou retornar o que seria uma nova
+
+porta e essa nova porta vai ser do tipo porta modelo e essa função.
+
+Ela vai retornar Voisin vai tornar nada mais.
+
+Eu vou conseguir passar um parâmetro para quem me chamou ou seja eu vou passar aqui e eu vou devolver
+
+o que seria uma nova porta legal que significa que a gente vai conseguir lá e ainda que se conteste
+
+na verdade esse é um parâmetro obrigatório.
+
+A gente vai conseguir aqui ao colocar no continente e eu vou receber o que vai ser uma nova porta então
+
+nova porta e eu vou por enquanto colocar aqui um console pronto logo para exibir o que seria a nova
+
+porta no console pois a gente vai fazer os ajustes para poder integrar aqui com a parte do Estado desse
+
+componente que é chamar que o set por enquanto eu vou fazer isso.
+
+A função vai receber uma nova porta legal por quatro.
+
+Esse parâmetro existe eu já estou passando o parâmetro para o meu componente só que eu preciso aqui
+
+dentro.
+
+Trabalhar com isso como é que eu vou fazer isso.
+
+Primeiro vou definir nessa equipe que apresenta uma área eu vou querer tratar o evento do cliente e
+
+colocar um clique e aqui eu vou trabalhar o conceito de alternar a Seleção.
+
+Então vou colocar aqui ou alternar a seleção e eu vou criar aqui o que seria uma função chamada alternar
+
+a Seleção essa função vou criar como uma função ela poderia ser um filme normal né depende do que você
+
+prefere fazer e essa função ela vai receber um evento porque eu vou passar essa função diretamente para
+
+cá e aqui o que eu vou fazer é o seguinte ou eu vou chamar propos ponto x e vou passar uma nova porta
+
+com a seleção alternada.
+
+Ou seja como é que eu posso pegar a porta que eu tenho agora é alternar a seleção tá fácil.
+
+Porquê.
+
+Porque eu já fiz isso dentro da classe eu já criei uma função que vai alternar o valor que vai devolver
+
+para mim uma nova porta.
+
+Então basicamente que eu vou fazer aqui não atende a chamada Porta.
+
+Em vez de passar simplesmente porta a porta atual eu não quero passar uma porta nova e tornar a porta
+
+nova que é exatamente para que eu coloquei aqui.
+
+Agora vou chamar a porta pontuou.
+
+Alternar a seleção chamando automaticamente dentro desse método ele vai alternar o valor e vai criar
+
+uma nova porta sem mexer no valor original esse valor original aqui continua o mesmo e aqui ele vai
+
+gerar uma nova porta com o valor selecionado alterado.
+
+Beleza então com isso a gente está chamando o que a gente por enquanto o evento não usei.
+
+Vou já mostrar pra vocês que a gente vai eventualmente precisar dele e mais por enquanto vai funcionar
+
+assim.
+
+Então se a gente for olhar aqui o valor interno ao clicar na porta ele mostrou um porta modelo e aqui
+
+ele vai dizer que está aberta no menu selecionada TRU Corel Bicalho novo ele vai gerar um outro porta
+
+móvel e o valor selecionado vai ser no outro.
+
+Por quê.
+
+Porque eu não mudei aí do Estado do componente está sempre pegando o estado atual que é falso e gerando
+
+um porta modo TRU para a gente fazer essa alternância e da seleção que eu preciso fazer dentro do meu
+
+índex e pegar essa nova porta e alterá la usando aqui o site para que eu consiga alterar o estado do
+
+meu componente.
+
+Então aqui vou fazer a mesma coisa que eu fiz no site de texto aqui no meu iPod e eu vou chamar o set
+
+que é o nome que eu coloquei e o nome pouco estranho aqui mais beleza poderia ser porta e sete porta
+
+né.
+
+Aqui eu coloquei o pé eu vou passar a nova porta como parâmetro e aí sim eu vou conseguir evoluir o
+
+meu estado.
+
+Até então sem ontem entendia como se tivesse um componente controlado não conseguia alterar ele mas
+
+com a índia agora se consigo evoluir o estado do meu componente.
+
+Então se a gente está agora o que vai acontecer é como aplicar ficou selecionado para aplicar novamente
+
+d seleciona.
+
+Bom então agora a gente está conseguindo fazer a seleção do nosso componente usando o que seria um elemento
+
+um componente muito parecido com a estratégia que a gente usa para um componente do tipo input.
+
+Eu tenho aqui um valor.
+
+Só que esse valor em vez de ser um valor textual ele é um objeto e esse objeto internamente dentro ele
+
+já é esperto o suficiente pra se modificar quando necessário de tal forma que dentro do meu componente
+
+visual que a porta eu não preciso fazer muitas coisas basta eu chamar um método que já está dentro do
+
+modelo.
+
+Dessa forma você consegue ter uma boa separação entre lógica que pertence ao seu modelo e lógica que
+
+pertence ao componente o componente simplesmente chamou a função.
+
+Internamente ele já fez tudo o que precisava e o fato de você não alterar a porta original é muito bom
+
+porque garante é pra quem está usando esse componente que ele só vai evoluir o Estado quando ele quiser.
+
+Se eu tivesse mexido na instância atual eu não teria a possibilidade de ter por exemplo uma porta somente
+
+leitura porque eu estou mexendo diretamente na instância nesse caso não.
+
+Muitos retornam a nova porta aí o fato de eu receber a nova porta faz com que eu tenha a liberdade de
+
+chamar ou não a mudança do estado aqui chamado esse método aqui legal então a gente faz mais um passo
+
+aqui pra que a gente possa ter a porta completamente funcional para daí a gente partir para o controle
+
+do jogo com todo então na próxima aula continua pra dar mais um outro passo ainda trabalhando com essa
+
+questão dos eventos e até lá.
