@@ -9,10 +9,13 @@ export default function Formulario() {
   const [comPresente, setComPresente] = useState(1)
 
   return (
+    
     <div className={styles.formulario}>
+      <h1> Jogos das portas</h1>
+      <p>Tente sua sorte: </p>
       <div>
         <Cartao bgcolor="#c0392c">
-          <h1>Monty Hall</h1>
+          <h1>Boa sorte!!!</h1>
         </Cartao>
         <Cartao>
           <EntradaNumerica text="Qtde Portas?"
@@ -31,7 +34,10 @@ export default function Formulario() {
             <h2 className={styles.link}>Iniciar</h2>
           </Link>
         </Cartao>
+    
       </div>
+      <p>Desenvolvimento Por ALKTECNO com base no <a href="https://www.udemy.com/course/nextjs-e-react/?couponCode=2021PM25">curso de Next.js e React - Curso Completo - Aprenda com Projetos</a> 
+</p>
     </div>
   )
 }
