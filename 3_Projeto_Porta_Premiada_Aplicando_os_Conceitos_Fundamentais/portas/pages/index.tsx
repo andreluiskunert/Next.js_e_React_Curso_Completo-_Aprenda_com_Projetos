@@ -11,6 +11,8 @@ export default function Formulario() {
   return (
     
     <div className={styles.formulario}>
+      
+     
       <h1> Jogos das portas</h1>
       <p>Tente sua sorte: </p>
       <div>
