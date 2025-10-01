@@ -1,0 +1,115 @@
+Pessoal ao mostrar o presidente dentro da porta é algo bem simples de fazer já está praticamente pronto.
+
+é só gente realmente faz essa integração e vou mostrar pra vocês como é simples nós temos aqui o ponto
+
+que nós vamos renderizar porta quando a porta estiver aberta a gente não vai renderizar porta.
+
+Quando a posse TV aberta a gente não vai renderizar com a porta fechada a gente vai renderizar porta
+
+eu vou colocar mais uma lógica aqui vou só inverter isso ou se a porta TV fechada e a gente pode inclusive
+
+só fazer o seguinte ficaria legal a gente tem esses esses isômeros né não colhe o que é o seguinte só
+
+nós temos método.
+
+Quer dizer que a porta está aberta.
+
+A gente pode também criar um outro método chamado fechada e fechada.
+
+é basicamente a negação do aberto.
+
+E assim a gente consegue fazer uma verificação mais direta.
+
+Por exemplo se a porta está fechada só pode estar fechada.
+
+Eu vou renderizar a porta.
+
+Caso contrário retorna.
+
+Falso.
+
+Beleza não mudei a lógica só fiz aqui um ajuste.
+
+Não mudei o resultado final só fiz um ajuste bem simples para a gente ter aqui basicamente a mesma coisa
+
+está a porta fechada.
+
+Ela mostra que caso eu abro ele vai sumir legal.
+
+Quando a porta estivesse deixada vou renderizar.
+
+Caso contrário existe um outro cenário que é o seguinte só eu posso colocar aqui mais uma verificação
+
+em vez de colocar falso direto.
+
+Eu posso colocar mais uma verificação que é o seguinte caso eu tenha porta a porta.
+
+Ponto.
+
+Tem presente porque ele só vai cair aqui quando a porta estiver aberta se tiver presente eu quero que
+
+ele mostre o componente presente então presente mas que não vai completa aqui não mais beleza presente.
+
+Vou colocar assim e vou importados e se importa não mais beleza.
+
+Eu vou voltar aqui ao presente foram ponto bala presentes.
+
+Então ele vai renderizar o presente caso contrário se não tiver presente aí sim ele renderia falso.
+
+Vamos fazer aqui só a organização.
+
+Vou colocar isso aqui para baixo e fazer assim pronto.
+
+No primeiro caso se tiver fechado renderizar porta se não tiver fechado TV aberta ele vai verificar
+
+tem presente tem.
+
+Ele vai mostrar o presente.
+
+Caso contrário ele retorna falso e agora a gente vai fazer aqui.
+
+Já viu que está funcionando né.
+
+No nosso caso a gente tem quatro portas e a terceira está presente.
+
+Então vou selecionar ok vou abrir.
+
+Não tem nada vou abri aqui ou não tem nada.
+
+Vou selecionar não posso selecionar abrindo.
+
+Tenho um presente aqui dentro.
+
+Está faltando aqui um ajuste em relação ao CCS.
+
+Só para a gente colocar o posicionamento correto aqui.
+
+Com relação à porta então a gente pode entrar aqui no porta ponto modelo e ponto CSS no nosso frame.
+
+Eu posso usar aqui um flex Direction pra c o colam pra você criar botar isso pra baixo.
+
+Então coloco muito pra baixo e automaticamente ele já ficou aqui na posição correta.
+
+Então dado um refresh e posso selecionar posso selecionar e ele vai trocando abrindo ele mostra o que
+
+tem presente os outros não tem presente nenhum.
+
+Então pessoal fizemos aqui mais um passo aqui no nosso sistema.
+
+Com uma pequena integração só pra ele mostrar aqui se tem presente ou não.
+
+Eu aproveitei já que eu não queria ter uma lógica com negação para ficar mais claro e mais pulei da
+
+leitura e vc se a porta não tiver aberta fica melhor a porta fechada.
+
+Renderizar porta se a porta a TV aberta tem presente tem endereço o presente caso não tenha não renderia
+
+nada legal.
+
+Gente continua na próxima aula pra começar a moda e lá o nosso formulário pra daí a gente navegar para
+
+a tela do jogo na verdade eu vou criar a tela do jogo como um ser uma tela separada.
+
+E aí depois a gente vai navegar para a tela do jogo a partir do formulário tá na próxima.
+
+A gente continua e até lá.
