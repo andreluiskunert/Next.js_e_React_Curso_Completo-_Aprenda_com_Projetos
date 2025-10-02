@@ -38,7 +38,7 @@ export default function Formulario() {
         </Cartao>
     
       </div>
-      <p>Desenvolvimento Por ALKTECNO com base no <a href="https://www.udemy.com/course/nextjs-e-react/?couponCode=2021PM25">curso de Next.js e React - Curso Completo - Aprenda com Projetos</a> 
+      <p>Desenvolvimento Por <a href="https://github.com/andreluiskunert">ALKTECNO</a>  com base no <a href="https://www.udemy.com/course/nextjs-e-react/?couponCode=2021PM25">curso de Next.js e React - Curso Completo - Aprenda com Projetos</a> 
 </p>
     </div>
   )
