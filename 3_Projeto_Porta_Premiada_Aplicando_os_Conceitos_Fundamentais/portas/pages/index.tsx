@@ -14,10 +14,11 @@ export default function Formulario() {
       
      
       <h1> Jogos das portas</h1>
-      <p>Tente sua sorte: </p>
+      <p>Este jogo irei usar futuramente no meu portfolio,Tente sua sorte: </p>
       <div>
         <Cartao bgcolor="#c0392c">
-          <h1>Boa sorte!!!</h1>
+          <h1>Boa sorte!!!</h1> 
+          <h2> </h2>
         </Cartao>
         <Cartao>
           <EntradaNumerica text="Qtde Portas?"
