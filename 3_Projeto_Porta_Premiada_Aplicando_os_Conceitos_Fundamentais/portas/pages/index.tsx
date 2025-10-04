@@ -11,10 +11,15 @@ export default function Formulario() {
   return (
     
     <div className={styles.formulario}>
-      
      
-      <h1> Jogos das portas</h1>
+     
+      <h1>  Jogos das portas</h1>
       <p>Este jogo irei usar futuramente no meu portfolio,Tente sua sorte: </p>
+       <>
+       Esse capítulo apresenta um projeto visual baseado na brincadeira das três portas,<br /> inspirada em programas de televisão.
+O objetivo é trabalhar conceitos de componentes, comunicação entre eles e passagem de parâmetros. <br />
+Na próxima aula será feita a apresentação geral do projeto e do produto final a ser desenvolvido.
+      </> 
       <div>
         <Cartao bgcolor="#c0392c">
           <h1>Boa sorte!!!</h1> 
