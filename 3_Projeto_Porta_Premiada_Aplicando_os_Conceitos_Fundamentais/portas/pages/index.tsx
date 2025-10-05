@@ -9,20 +9,21 @@ export default function Formulario() {
   const [comPresente, setComPresente] = useState(1)
 
   return (
-    
+
     <div className={styles.formulario}>
-     
-     
-      <h1>  Jogos das portas</h1>
+
+
+      <h1> <u> Jogos das porta</u></h1>
       <p>Este jogo irei usar futuramente no meu portfolio,Tente sua sorte: </p>
-       <>
-       Esse capítulo apresenta um projeto visual baseado na brincadeira das três portas,<br /> inspirada em programas de televisão.
-O objetivo é trabalhar conceitos de componentes, comunicação entre eles e passagem de parâmetros. <br />
-Na próxima aula será feita a apresentação geral do projeto e do produto final a ser desenvolvido.
-      </> 
+      <>
+        Esse capítulo apresenta um projeto visual baseado na brincadeira das três portas,<br /> inspirada em programas de televisão.
+        O objetivo é trabalhar conceitos de componentes, comunicação entre eles e passagem de parâmetros. <br />
+        Na próxima aula será feita a apresentação geral do projeto e do produto final a ser desenvolvido. pra maiores <a href="/frontpage" target="_blank" rel="noopener noreferrer">informações</a>.
+        .
+      </>
       <div>
         <Cartao bgcolor="#c0392c">
-          <h1>Boa sorte!!!</h1> 
+          <h1>Boa sorte!!!</h1>
           <h2> </h2>
         </Cartao>
         <Cartao>
@@ -42,10 +43,10 @@ Na próxima aula será feita a apresentação geral do projeto e do produto fina
             <h2 className={styles.link}>Iniciar</h2>
           </Link>
         </Cartao>
-    
+
       </div>
-      <p>Desenvolvimento Por <a href="https://github.com/andreluiskunert">ALKTECNO</a>  com base no <a href="https://www.udemy.com/course/nextjs-e-react/?couponCode=2021PM25">curso de Next.js e React - Curso Completo - Aprenda com Projetos</a> 
-</p>
+      <p>Desenvolvimento Por <a href="https://github.com/andreluiskunert">ALKTECNO</a>  com base no <a href="https://www.udemy.com/course/nextjs-e-react/?couponCode=2021PM25">curso de Next.js e React - Curso Completo - Aprenda com Projetos</a>
+      </p>
     </div>
   )
 }
