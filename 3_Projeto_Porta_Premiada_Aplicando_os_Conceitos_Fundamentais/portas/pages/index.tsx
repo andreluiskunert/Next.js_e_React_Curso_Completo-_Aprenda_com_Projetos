@@ -34,8 +34,8 @@ export default function Formulario() {
       </div>
       <div>
         <Cartao>
-          <EntradaNumerica text="Porta com Presente?"
-            value={comPresente}
+          <EntradaNumerica text="Em qual estará o presente ?" 
+           value={comPresente}
             onChange={novaPortaComPresente => setComPresente(novaPortaComPresente)} />
         </Cartao>
         <Cartao bgcolor="#28a085">
