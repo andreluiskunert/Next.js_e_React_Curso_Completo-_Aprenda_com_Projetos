@@ -1,0 +1,129 @@
+São outra coisa que a gente pode fazer só pra concluir aqui garanti que os valores do passado sejam
+
+valores corretos.
+
+Porque se você passa a quantidade de portas 3 e a porta compras de 5 o que vai acontecer aqui minha
+
+porta terá presente porque você passou a porta inválida digamos assim então você até poderia ter várias
+
+formas aqui fazer a validação poderia ser o próprio formulário mas nada impede de você navegar diretamente
+
+pelo RL passando um valor inválido então dentro do componente.
+
+Aqui você tá lendo as informações de porta e para tal você poderia ter uma variável pra dizer se esses
+
+valores são válidos ou não.
+
+Certo para daí você criar porta ou não.
+
+Então por exemplo você pode ter aqui um assistente com a propriedade chamada válido e aqui seria o sétimo
+
+válido e o site válido.
+
+Ele poderia ficar dentro de um outro e usa Fact aqui e ele só vai ser chamado quando o valor da porta
+
+pode ficar certo sempre que modificar a porta.
+
+Você vai alterar o valor de Vale Portão.
+
+Aqui seria interessante que sempre que ele mudar o valor de portes a gente pode reagir a essa mudança
+
+e fazer um cálculo pra saber se os valores são válidos ou não.
+
+Então por exemplo o que é que seria uma quantidade de portas válida.
+
+Então pra ser uma quantidade de portas vale é preciso ter no mínimo três.
+
+Então vou colocar aqui pra pagar essa parte aqui e vou definir Portas pálidas por exemplo em quantidade
+
+o que está aqui é a quantidade de portas vale.
+
+Vou colocar para a C Entry que eu teria que ler esses dois valores.
+
+Certo Não vou colocar aqui puxador com portas é pra ter uma quantidade válida tem que ter a porta como
+
+no mínimo colocar aqui no mínimo igual a 3 se porta for maior ou igual a 3 tem uma quantidade porta
+
+válida.
+
+Eu poderia limitar por exemplo portas para um valor menor ou igual a 100.
+
+Para também não ficar muitas portas e o outro que é um presente para saborear revalida então tem presente
+
+válido.
+
+Quando eu tenho essa variável tem presente ela precisa ser maior ou igual a 1 e ela precisa ser menor
+
+ou igual quantidade de portas então tem que se tem presente tem que ser menor ou igual a variável Portas.
+
+Nesse caso existem duas variáveis e essas duas variáveis e se elas forem verdadeiras significa que eu
+
+tenho um formulário válido.
+
+Então aqui eu vou colocá la sete válido para a quantidade e portas válida e tem prazo de validade se
+
+os dois forem verdadeiros.
+
+O site o válido é verdadeiro.
+
+Aqui ele está dizendo que não é acessível porque aqui eu comecei com um valor do tipo Harry.
+
+Na verdade eu vou começar do como sendo falso inicialmente.
+
+Se até aqui o valor válido é a gente pode por exemplo só renderizar as portas se o valor for válido.
+
+Aqui você pode colocá la válido e portas.
+
+Ponto.
+
+E aí você tem um que seria um rack aqui no JavaScript se esse primeiro valor for falso a expressão inteira
+
+é falsa e ele não vai retornar Falso renderizar Portas.
+
+E se essa expressão for verdadeira ele vai ler a segunda parte e o resultado dessa segunda parte será
+
+retornada.
+
+A partir dessa função renderizar portas então se a gente testar aqui ou três portas e a primeira compra
+
+Zengi.
+
+Ele mostrou as três a primeira vai estar presente e as outras duas não estarão presentes.
+
+Se eu vim aqui e passar cinco portas só que a sexta porta está com o presente inicial.
+
+Ele vai ficar tipo reiniciar o jogo dizendo que não foi capaz de mostrar as informações corretas.
+
+E aí você pode inclusive até mostrar uma mensagem né.
+
+Então nesse caso renderizar portas eu vou simplesmente deixar assim se for válido ele vai renderizar
+
+a porta.
+
+Caso contrário eu posso por exemplo colocar aqui e sei lá colocar esses dois pontos aqui e aqui embaixo
+
+vou colocar um H2 dizendo que valores.
+
+Inválidos.
+
+Beleza então aqui ficaria um pouco mais claro.
+
+Caso você passa aqui quatro portas é a quinta porta.
+
+Ela foi selecionada e vai colocao de valores inválidos legal.
+
+Se eu colocar um valor puseram um presente vale dizer valores inválidos.
+
+E aí você sabe exatamente se está passando a valores válidos ou não.
+
+De acordo com a sua seleção legal poderia até ser aqui talvez um órgão que fica um pouco mais claro.
+
+Beleza então é isso pessoal terminamos o nosso projeto com essa última validação é aqui simples só para
+
+a gente fechar com chave de ouro e nós vamos começar nas próximas aulas mais um capítulo aqui do nosso
+
+curso que mexe assim juntamente com o MEC.
+
+Não dá pra desassociar os dois porque eles estão intimamente ligados.
+
+Grande abraço e até o nosso próximo vídeo.
