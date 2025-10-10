@@ -1,0 +1,279 @@
+Só nessa aula eu quero falar com vocês sobre S P.
+
+Ah sim um país aplique se você já conhece esse tema já trabalha com aplicações S.p.A entende como funciona
+
+a lógica de aquisição e suporte você pode pular essa aula e para a próxima Magal falar sobre as outras
+
+duas estratégias de renderização mais basicamente o que acontece é o seguinte a gente olhando um pouco
+
+da história de como funcionava as aplicações laterais minha opinião aqui falando em foi você quem aqui
+
+me quer um servidor que fazia todo o processamento e você tinha terminais em um terminal burro aqui
+
+que acessava esse mainframe toda a lógica acontecia do lado do servidor.
+
+Sitios terminais burros e tal.
+
+Depois a gente passou para uma outra fase em que eu vou colocar aqui salário outra acolá amarelinho
+
+que a gente tinha que era época de ouro do Delfim.
+
+Você tinha uma parte rodando no servidor mais você tinha aplicações aqui se dava qualquer um erra aqui
+
+fica um interface e então parte da lógica acontecia a interface.
+
+E aí a gente evoluiu um pouco mais.
+
+E foi pra não a outra solução parecida aqui com a questão dos mainframes mas o Zinho que foi ao Webby.
+
+Como ela começou toda renderização era feita do lado do servidor.
+
+Então você tinha aqui um servidor que funcionava como se fosse uma frame e esse servidor mandava pra
+
+um terminal burro que esse terminal burro que era o Brasil e o Brasil simplesmente exibia o conteúdo
+
+que foi gerado o HTML que era retornado pelo servidor.
+
+Então aqui você tinha um mainframe depois tinha aqui clientes ricos nessa época do Delphi aplicações
+
+de desktop e aqui você passa a ter aplicação para a web onde o servidor concentrava todo o processamento
+
+e o cliente lá no Brasil aqui seria o Brasil e simplesmente exibia o que o servidor colocava.
+
+Dá para notar que há um paralelo entre essa parte de mim frente só que aqui você tem um cenário local
+
+e aqui você tem um cenário para a web evoluindo um pouco mais.
+
+Nós temos o cenário do que seria o S.p.A então S.p.A.
+
+Você tem parte do processo sendo feito no servidor mais você tem cliente rico assim como você tinha
+
+no Delfim a marca do desktop um cliente rico aqui na web você tem um cliente rico ou seja a aplicação
+
+front end do lado do servidor no Brasil e começa a ter processamento começa a ter lógica bem as coisas
+
+são geradas no lado do cliente não mais no servidor.
+
+E aí basicamente o que tem de troca aqui do cliente o servidor e do servidor por cliente.
+
+E aí só você tem um formato textual.
+
+Isso é muito comum nesse cenário e você tem o seu funding uma aplicação Booking e muitas vezes esse
+
+cliente é rico.
+
+é uma aplicação S.p.A.
+
+Note que existe um paralelo entre isso e o cliente rico.
+
+Coloquei aqui ficou uma reta mais note que tem um paralelo entre esse cliente na web e o cliente rico
+
+desktop que na época era feito por exemplo com Delphi só que aqui é muito mais fácil né porque você
+
+não tem problema de dar play você não precisa ficar instalando as aplicações em cada computador da mesma
+
+forma que aqui também a gente não precisar ficar instalando as coisas como era na época do mainframe
+
+então aqui.
+
+De certa forma há uma evolução já apagar tudo isso aqui é uma evolução histórica média e você ter partes
+
+de arquitetura digamos assim de modelo de aplicação que são geradas do lado do servidor e partes que
+
+são geradas do lado do cliente.
+
+Então na nuvem frame era o servidor que fazia tudo o terminal burro simplesmente mostrava os dados e
+
+pegava as entradas do usuário no teclado na época do Delfim você tinha uma interface e que com lógica
+
+e com validações e muitas vezes acessando diretamente o banco de dados no servidor digamos assim o servidor
+
+já era o banco de dados e tudo ficava concentrado na aplicação front end.
+
+Aí nós íamos para a web que nesse caso a geração do conteúdo era todo também do lado do servidor mais
+
+ou menos como mainframe.
+
+Só que o Brasil e a servir como terminal você tanto pagava as entradas do usuário no teclado como mandava
+
+requisições do servidor ITAU E você tem aplicações S.p.A.
+
+Então você tem aqui no cenário geral.
+
+Tem o Brasil.
+
+E você tem o servidor em uma aplicação S.p.A.
+
+O que você vai ter lá no servidor basicamente com outras questões envolvidas.
+
+Você vai ter um arquivo HTML.
+
+E você vai ter um ou mais arquivos do tipo javascript.
+
+Se você quiser colocar a aplicação inteira dentro de um arquivo JavaScript que não é um cenário incomum
+
+de acontecer então é possível que você tenha toda a sua aplicação em um arquivo JavaScript que só siga
+
+a sua aplicação for muito grande ms e lá você tem um arquivo JavaScript 4 mega salário 8 megas isso
+
+pode gerar um problema na hora de ele carregar o seu sistema inicialmente.
+
+Daí o fato que existem algumas técnicas para você quebrar esse arquivo em vários arquivos menores mais
+
+vamos abstrai um pouco isso que é que vai acontecer é o seguinte quando você for carregar sua aplicação
+
+lá o Brasil vai fazer uma requisição para fazer um rico.
+
+E nessa equestre você vai receber por exemplo o RL sei lá meu sistema aponta o com.br e aí fez um requisição
+
+e ele vai devolver inicialmente esse arquivo HTML então ele vai dar como resposta para a sua aquisição.
+
+O arquivo HTML que é a sua sigla APIs Application você vai ter um HTML.
+
+O Brasil vai perceber que esse arquivo HTML faz referência a um JavaScript.
+
+Ele vai fazer aqui uma Coca aqui não foi diferente.
+
+O vídeo aqui vai fazer uma nova aquisição um novo e mexe também aqui passado.
+
+Ela especifica para o arquivo JavaScript que ele vai devolver aqui o seu.
+
+Na resposta vai devolver um arquivo de.
+
+Vamos imaginar que não tem imagem que não tem CSS simplesmente imaginar que ele vai trazer aqui o arquivo
+
+PDF.
+
+Esse arquivo de é assim.
+
+Voltando um pouquinho aqui no seu arquivo HTML via de regra a página é bem simples não tem praticamente
+
+nada tem só a referência para o JavaScript que é título coisa do tipo e vai ter lá onde vim por exemplo
+
+vivi com Aydin por exemplo.
+
+Ficou muito bonito aqui não mas tudo bem.
+
+Guti.
+
+Como é o caso do RS então você tem aqui onde vive vazia com um determinado de Rudi e a sua aplicação
+
+foi configurada pra quando o arquivo de S retornar da aquisição ele vai ser carregado e esse arquivo
+
+JavaScript.
+
+Ele vai começar a fazer a manipulação da Adobe.
+
+Então ele vai manipular a Adobe que é o modelo de objetos documenta Document Object Model esse modelo
+
+de objeto exatamente a estrutura que toda a sua página HTML.
+
+Então a partir do JavaScript que foi obtida ele vai começar a fazer a criação de elementos a criam onde
+
+ele cria um botão criam a tabela cria e isso cria aquilo outro ele vai criando a sua página inteira
+
+dinamicamente a partir do JavaScript.
+
+Então o HTML que foi obtido lá do servidor ele é um HTML vazio ele não vazio na HTML que tem uma estrutura
+
+muito simples basicamente vai ter lá o HTML e vai ter o remédio e meteu o Bari dentro do bar e você
+
+vai ter praticamente um ano.
+
+Só isso vazia sem nada dentro.
+
+Você vai ter o cabeçalho com as informações e referências de JavaScript e tal.
+
+E no final das contas quem vai gerar sua aplicação inteira é esse JavaScript que foi obtido no servidor
+
+e ele vai começar amanhã por lá.
+
+Dom Geraldo tudo apenas dentro do lado do cliente.
+
+E aí ele vai usar para manipular dom o próprio Frei no Orkut.
+
+Ele vai usar o Yeti debaixo dos panos até porque esse arquivo gerado ele é bem diferente daquilo que
+
+você escreveu na sua aplicação.
+
+Ele foi feito todo um processo de conversão dos seus trechos de código JS x que não é suportado.
+
+Já comentei sobre isso lá no começo do curso então ele vai converter tudo isso para JavaScript e o JavaScript
+
+é responsável por gerar a sua aplicação inteira.
+
+Então em resumo o que você tem e você vai fazer um requisição para a sua.
+
+Esse pedaço assim como a sua SP siga o peixe já que é uma aplicação que tem uma única página ele vai
+
+retornar esse HTML.
+
+Eticamente o vazio só com a estrutura básica é um divisão vazia.
+
+E aí quando o JavaScript chegar a partido é que ele vai manipulador.
+
+Pra começar a criar toda a sua aplicação dentro dessa divisão.
+
+Mas como isso acontece dentro do Brasil ou seja somente no Brasil isso acontece.
+
+Sistemas de busca Bing e Google.
+
+E tal só se esses dois sistemas de buscas vão ter dificuldade de conseguir que a sua aplicação ou de
+
+fazer o e é ou não é a otimização de sistemas de busca que é o Sport Engine Optimization e optimização
+
+de sistemas de busca.
+
+Ele não vai conseguir arranque a muito bem à sua aplicação porque a sua aplicação do ponto de vista
+
+de HTML é basicamente uma página que vai ter um alívio vazia.
+
+Todo o resto é gerado via JavaScript e com a interação do usuário o usuário vai interagindo na aplicação.
+
+Novas páginas vão sendo geradas do lado do cliente ou seja a partir do momento que você recebeu esse
+
+JavaScript.
+
+As próximas interações que vão acontecer entre o seu browser e o servidor do outro lado quando for feita
+
+novas aquisições vai ser feita a aquisição é via de regra a resposta vai ser de e só serão dados e não
+
+mais HTML.
+
+Coisas do tipo certo você vai receber só dados e a partir desses dados novos conteúdos vão sendo colocados
+
+dentro.
+
+Aqui dessa divisão.
+
+Exatamente por quê todo o potencial de construir sua aplicação inteira já está dentro desse JavaScript
+
+ou do usuário JavaScript que eventualmente estejam lá divididos na sua aplicação.
+
+Legal então esse aqui é um panorama geral de como funciona uma aplicação S.p.A e uma única página certo
+
+com o JavaScript e o JavaScript que vai gerar dinamicamente toda a sua aplicação.
+
+Dá para colocar a aplicação inteira em um único JavaScript.
+
+Sim pode ser viável colocar sua aplicação inteira dentro de um único JavaScript.
+
+Sim se a aplicação for pequena faz sentido você colocar num único JavaScript mesmo que ele tenha alguns
+
+lobbies aí de tamanho como a internet na maioria das pessoas e do seu público eventualmente vai carregar
+
+isso de forma tranquila.
+
+Então é uma possibilidade muito viável.
+
+Então o fato é que você tem um HTML simples anexo a 5 ou pés e todo o conteúdo é gerado via JavaScript.
+
+Esse é o modelo padrão do IEEE.
+
+E esse também é o modelo padrão do Next que na próxima aula a gente vai trabalhar.
+
+O próximo tipo de renderização para que a gente possa entender também um pouco do diagrama em relação
+
+à requisição resposta.
+
+Como funciona para depois a gente vê isso na prática.
