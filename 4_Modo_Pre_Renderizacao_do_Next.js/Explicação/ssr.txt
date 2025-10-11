@@ -1,0 +1,229 @@
+Agora pessoal vou falar sobre o sim.
+
+é assim que o samba sai bem.
+
+E eu quero dizer nessa aula que o frei morre S.p.A né como é o caso de Mac e do Yeti que é um biblioteca.
+
+Eles facilitaram muito muito muito muito a nossa vida facilitou bastante daí o fato de você ter a possibilidade
+
+de trabalhar com Serra Leandro não significa que essa é uma estratégia melhor.
+
+O que significa que essa é uma estratégia diferente.
+
+E por ser diferente ela vai se encaixar melhor em alguns cenários.
+
+Assim como SP vai se encaixar melhor em alguns cenários e assim como essa e assim bem se encaixar melhor
+
+em alguns cenários.
+
+Então a o é que nós temos aqui a situação que nós temos pra se usar.
+
+SC principalmente.
+
+Poderia citar como carro chefe.
+
+Quando você precisa ter é assim é pó que é o Soft Engine Optimization otimização de mecanismos de busca.
+
+Ou seja você tem começa eletrônico você tem uma aplicação que é um sistema de D.
+
+Você tem aqui um blog e você tem um sistema que precisa e o que depende do Google que depende dos mecanismos
+
+de busca pra serem encontrados e aí esses sistemas Bing e Google Itália tem um robô.
+
+Ele tem um software que vai ler a página HTML e que vai entender quais são os títulos dessa página.
+
+Quais são as tags h o que são os principais títulos.
+
+Qual é o Taito da página.
+
+Quais são as tags beta que tem dentro.
+
+Quais são os artigos.
+
+Quais são as ações.
+
+Quais são os H2 neles subtítulo Os títulos de menor importância ele vai criando a sua página.
+
+De tal forma que quando você procura um determinado termo vida saudável é suco de fruta por exemplo
+
+se você tem um blog e uma página específica que você fez um artigo explicando o impacto de suco de fruta
+
+em uma vida saudável se é ruim ou não pode ser que seja ruim isso foi exagerado sei lá.
+
+Mas você escolheu as palavras certas colocou nas tags corretas.
+
+Quando o Google fizer essa otimização no serviço de busca for buscando a sua página na internet ele
+
+vai bloquear sua página e ela pode aparecer muito bem hackeada por exemplo dentro de determinados tipos
+
+de busca.
+
+é desejável que você vai trazer muitos usuários para a sua aplicação.
+
+Então quando você precisa Net esse tipo de conteúdo que precisa ser encontrado é importante.
+
+Quando o Google ou quando o usuário erra ou vai ao caso do Google não é importante.
+
+Quando o Google aqui eles fizeram a requisição fizeram ricochete para o seu servidor.
+
+Nessa lá o seu servidor e esse servidor deu a resposta certa e essa resposta foi Aqui um arquivo HTML
+
+que esse arquivo HTML dentro dele.
+
+Se a gente olhar aqui ele vai ter todos os elementos até o seu artigo vai ter as tags vai ter tudo escrito
+
+direitinho.
+
+Porquê esse conteúdo ele foi gerado aqui ou ele foi gerado dentro do servidor.
+
+Ou seja a resposta já retornou o HTML pronto com todas as tags.
+
+E aí quando o Google receber esse HTML com todas as tags com todo o conteúdo da sua página ele vai ter
+
+como analisar tudo isso aqui e dizer OK quando alguém fizer uma pesquisa com essas palavras chaves apresente
+
+essa página com até ser opção com uma segunda opção.
+
+Eventualmente até a primeira opção dentro de um critério de busca.
+
+Daí o fato de que se você gere o conteúdo do lado servidor o Google não precisa aprender como ele precisa
+
+clicar ou interagir com a sua aplicação pra ler HTML o HTML já vem pronto gerado do lado do servidor.
+
+Quando você tem o SCR significa que esse conteúdo HTML é gerado do lado do servidor mas isso não significa
+
+que você não tenha JavaScript e também será executado.
+
+Essa página por mais pronta que ela esteja.
+
+Pode sim referenciar arquivos Javascript pra tornar essa página ainda mais dinâmica e tornar essa página
+
+mais interativa para o usuário.
+
+O fato de você gerar o conteúdo do lado do servidor não exclui o fato de que você vai ter eventualmente
+
+algumas interações serão feitas via JavaScript e mais são coisas que tem talvez um impacto menor.
+
+Eu quero esconder esse trecho e mostrar ao outro não quero esconder esse trecho aqui se o usuário clicar
+
+nesse botão aqui e se ele clicar aqui nesse botão ele vai exibir esse conteúdo mas o conteúdo vai tá
+
+lá é só uma questão de visibilidade dentro do lado do cliente o conteúdo inteiro está pronto porque
+
+foi gerado aqui no servidor.
+
+E o Google por exemplo vai conseguir fazer o Office ou que é algo muito importante em muitas aplicações.
+
+Então basicamente o que nós temos é voltando aqui o desenho original nós temos aqui um aplicação cliente
+
+rodando no Brasil.
+
+E nós temos aqui servidor quando o cliente fizer aqui uma requisição ele vai fazer reconhece.
+
+Obviamente ele vai passar que o RL é mais um conjunto de parâmetros que eventualmente precisem pra gerar
+
+essa RL específica e o servidor vai retornar um conteúdo que vai ser HTML CSS e JavaScript via.
+
+Resposta então vai uma boa resposta e ele vai mandar aqui HTML e companhia HTML CSS e JavaScript tal
+
+e esse conteúdo foi gerado aqui do lado do servidor e esse conteúdo foi gerado usando tecnologia.
+
+No caso do Mac ele continua usando o leia aqui.
+
+Só que o vai ser rodado digamos assim dentro do servidor.
+
+Ele vai criar essa estrutura de página para criar o seu HTML inteiro.
+
+E quando o HTML estiver pronto ou ele tiver terminado a pré renderização que gerou o HTML especificamente
+
+para essa requisição porque essa é uma característica importante do SCR.
+
+O SS é o Serra Wendel.
+
+Ele vai gerar um HTML por requisição sempre que o usuário fizer uma requisição.
+
+Ele vai gerar uma nova página.
+
+Ele vai para renderizar o lado do servidor e vai gerar um outro HTML.
+
+E o mais exatamente os mesmos eu passei a mesma RL com os mesmos parâmetros e o mesmo usuário logado.
+
+Beleza ele vai lá no banco de dados se ele precisar fazer uma requisição por Breaking Bad precisa acessá
+
+la o banco de dados apagar informações voltar e tal ele vai fazer todo o processo para gerar novamente
+
+outra página HTML.
+
+Então sempre que você fizer uma requisição Serra sai de onde eu sei que você tem algum sistema vital
+
+mas ele vai gerar o conteúdo de novo de forma dinâmica especificamente para essa requisição que você
+
+fez.
+
+Legal e ele vai usar continuar usando lá no lado do servidor e ele vai usá lo pra fazer toda essa renderização
+
+só que em vez de ele manipular diretamente a Dow no Brasil ele vai gerar o conteúdo e gerando conteúdo.
+
+Ele vai retornar a resposta com HTML pronto diferente do SP a que ele vai trazer um JavaScript e depois
+
+ele vai ficar pegando basicamente dados via Som.
+
+Nesse caso o servidor está retornando HTML como acontece em PHP como acontece em Python como acontece
+
+em Java e outras linguagens que são ditas Serra sai quando a linguagem serve e sai.
+
+Significa que a linguagem roda do lado do servidor porque PHP é uma linguagem que não é suportada pelo
+
+Brasil.
+
+O Chrome não tem idéia de como interpretar o PHP mais o servidor tem ou não serve do Apache anexo da
+
+vida.
+
+Ele vai interpretar o PHP e o PHP será capaz de renderizar uma HTML dinâmico e vai devolvê lo HTML para
+
+o lado do cliente.
+
+O seu browser vai acontecer a mesma coisa só que com um nome de servidor aqui.
+
+Mas a aplicação aqui no caso o que a aplicação Mac fazendo toda essa mágica acontecer.
+
+Essa é uma questão que vale a pena frisar que fere com relação à próxima estratégia.
+
+E nesse caso você tem o Brasil como cliente que vai fazer um.
+
+Não para o servidor tal esse conteúdo que é respondido.
+
+Esse HTML ele é dinâmico não existe um arquivo no disco com HTML escrito.
+
+Ele vai gerar esse conteúdo em memória daí o fato de que sempre que é feito a requisição um novo conteúdo
+
+HTML é retornado.
+
+A próxima estratégia ele vai sim criar colocá la num disco com um arquivo e esse arquivo vai ser servido
+
+como um arquivo estático.
+
+é como se a gente voltasse para os primórdios da web mais com a tecnologia bem interessante por cima
+
+fazendo com que esses conteúdos estáticos sejam alterados de tempos em tempos sempre que for necessário
+
+o que é muito legal então Saulo nós falamos um pouquinho do SCR que é o ceva salário ainda que é uma
+
+estratégia de pré renderização muito legal que vai te ajudar bastante até o S e o vai permitir que você
+
+tenha a sua página sendo monitorada por exemplo pelo Google.
+
+Então HTML retornado vai ser o HTML que ele vai exibir no Brasil.
+
+Ele pode inclusive ter JavaScript para aumentar a interatividade mas a estrutura do HTML foi toda gerada
+
+aqui do lado do servidor.
+
+Então também quis frisar na aqui pra cada requisição ele vai retornar uma nova página gerado dinamicamente
+
+não tem um arquivo físico coisa que não tem esse arquivo físico ele vai uma vez chegou a requisição
+
+ele vai fazer uma loja aqui no lado do servidor e vai mandar de volta o HTML.
+
+Então essa é a segunda estratégia e nós vamos passar para a terceira na próxima aula.

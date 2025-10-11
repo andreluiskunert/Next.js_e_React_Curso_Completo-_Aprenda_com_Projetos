@@ -1,0 +1,181 @@
+Agora nós vamos falar sobre o Sim sim já que é a geração estática de sites Terek sites Generation que
+
+seja essa a pronúncia.
+
+E vale muito a pena começar falando que essa não é de forma nenhuma uma estratégia nova porque a web
+
+iniciou com conteúdos estáticos e tinham páginas estáticas e depois que veio essa questão da geração
+
+de conteúdo dinâmica eu vou explicar para você um pouquinho essa questão do que é que significa um conteúdo
+
+estático o que nós temos agora é uma roupagem diferente.
+
+Eles tem um framework como lexical foi morto moderno não biblioteca né como mulher rica e moderna dentro
+
+de um framework e no caso do Net que faz com que a gente consiga gerar esse conteúdo estático a partir
+
+de um framework muito legal que é o Mac OS X na biblioteca muito legal que é aqui.
+
+Quando a gente roda lá o nosso comando imprime e não faço Bio.
+
+Ele vai gerar esse conteúdo estático para a gente tá.
+
+Deixa eu falar um pouquinho de como funciona a web do ponto de vista da geração de conteúdo estático.
+
+Nós temos aqui desse lado o nosso Brasil e nós temos desse lado que o nosso servidor.
+
+A gente sabe que o protocolo HTTP ele é baseado em requisição e resposta você tem aqui um equestre e
+
+você tem aqui uma expansão a resposta legal é que a requisição é feita usando o RL mais um conjunto
+
+de parâmetros pode ser mais um parâmetro aqui PS para dizer que é que são os parâmetros legal.
+
+Eu até hoje li mais um conjunto de parâmetros eu vou me dar uma resposta.
+
+Inicialmente a requisição era feita basicamente usando o RL e dentro do servidor.
+
+Ele é a lei.
+
+Uma pasta ou uma pasta no servidor está lá a pasta www.
+
+E dentro dessa pasta você vai ter outras pastas e arquivos aqui dentro com a extensão ponto HTML.
+
+E esses arquivos estavam fisicamente armazenados dentro do servidor.
+
+Muitas vezes o padrão do RL iria refletir o padrão de pastas que estavam dentro dessa pasta pública
+
+lá podia ser www.
+
+Podia ser uma pasta pública e podia ser qualquer nome que você eventualmente configure no seu servidor.
+
+Assim como a gente tem no caso do Mac aquilo que a gente coloca dentro do país isso reflete diretamente
+
+na web e coloca a cria uma pasta chamada Client.
+
+Eu crio arquivos chamado hobbit ponto TS X ou JS x.
+
+Então ele automaticamente cria uma RL que vai ter a pasta cliente e vai ter o Balbi T.
+
+Essa ideia de refletir não é a estrutura de pastas que você coloca dentro de uma pasta pública não é
+
+algo novo.
+
+Porquê lá atrás deve ser trabalhado e muitas vezes colocado lá HTTP 2 bons babau nome no seu site Barra
+
+cliente bar ou bitter ponto HTML então lá no servidor muito provavelmente tem uma pasta chamada cliente
+
+e tem um arquivo físico no disco do servidor lá chamado hobbit.
+
+Ponto HTML.
+
+E como você faz essa requisição você está simplesmente lendo um arquivo estático.
+
+Esse arquivo está fisicamente lá no driver ao lado do servidor do usuário o que significa que nesse
+
+arquivo que é carregado não vai ter o nome do cliente logado.
+
+Esse arquivo aí não tem como ter um carrinho de compra porque o carrinho de compra é específico para
+
+um determinado usuário.
+
+Então é um arquivo estático que vai servi praticamente todo mundo que fosse só o seu site.
+
+Então quando é feito uma requisição via o RL basicamente o trabalho de um servidor que está simplesmente
+
+fornecendo arquivos estáticos e lê esse arquivo do disco se ele não tiver sido carregado em memória
+
+e serve como resposta o arquivo HTML que foi por exemplo pesquisado.
+
+Obviamente esse HTML vai ter uma série de outras referências e vai ter uma série de outras requisições
+
+para apagar CSS e para apagar JavaScript para apagar imagens e tal.
+
+Então vai ter várias outras aquisições mais imaginando que dentro dessa estrutura também vai ter.
+
+Nessa imagem já cria a cada nova requisição ele vai pegando um arquivo estático que está salvo no disco
+
+do servidor e ele está simplesmente retornando esses arquivos essa é uma forma simples assim rápida
+
+porque muitas vezes esses arquivos já foram carregados na memória do servidor e ele está servindo isso
+
+para o outono tem que ter um pré processamento não tem que ter um processamento tem no banco de dados
+
+para apagar a informação e simplesmente pegar um arquivo que ele tem e devolver como resposta exatamente
+
+porque é uma requisição estática e não faz sentido no banco de dados já que o arquivo já está pronto
+
+no disco esperando ser servido.
+
+Então quando você tem o acesso G.
+
+Isso acontece quando você roda lá o comando e em tempo de build em tempo de compilação quando você é
+
+diferente da estratégia passada que é.
+
+Quando você vai gerar um conteúdo SS R Serra sai correndo.
+
+Esse servo sai correndo e gerar uma aplicação uma página melhor dizendo é um conteúdo dinamicamente
+
+e isso vai acontecer quando a aplicação estiver executado.
+
+Já a geração de sites aqui estáticos digamos assim o conteúdo estático esse conteúdo ele é gerado em
+
+tempo de compilação.
+
+Você vai compilar e vai gerar um conteúdo mais você tem aqui dentro do MAC uma série de funcionalidades
+
+como dizer quanto tempo aquele conteúdo vai durar.
+
+Então por exemplo se você quer que a sua página dure durante 30 minutos significa que daqui a 30 minutos
+
+ele vai invalidar aquele conteúdo e vai gerar novamente aquela página estática.
+
+Uma das vantagens que você tem é o fato de que pra gerar essa página estática você tem a possibilidade
+
+de fazer uma requisição para um app e você tem como acessar um banco de dados via uma API via o back
+
+end da sua aplicação.
+
+Então na hora de gerar ele vai sim fazer chamadas assíncrona por exemplo para apagar dados e usando
+
+os dados que foram omitidos ele monta a estrutura estática e salva no disco.
+
+De tal forma que aquele conteúdo vai ficar lá persistido por um tempo e o próprio Mac vai conseguir
+
+fazer a gerência se aquele conteúdo é um conteúdo válido.
+
+Se ele está ainda válido ou se ele precisa gerar um novo conteúdo baseado naquilo que você configurou
+
+tá todo esse processo que eu estou falando na geração de conteúdo estático e tal.
+
+é muito simples vai acontecer de uma forma muito tranquila para a gente não vai envolver configuração
+
+vai envolver basicamente trabalhar com algumas convenções alguns padrões que o Mac criou para ele detectar
+
+quando você quer que a renderização seja usado e acesse nessa área saiu.
+
+Ou quando você quer que a geração seja feita usando essa essa engine.
+
+Geração de conteúdo estática estático legal então entendendo qual o princípio aqui quando você está
+
+servindo o arquivo estático você está servindo o arquivo que existe no disco lá do servidor embora esse
+
+arquivo possa está em Memória e Arquivo pode ter sido carregado de uma forma que você vi da forma mais
+
+rápida possível.
+
+Fato é que esse arquivo seja ele no disco ou em memória é o mesmo arquivo que é servido sempre que é
+
+feita a requisição para aquela mesma.
+
+O RL diferente do é que vai gerar a cada nova requisição legal então dito isso você já tem uma base
+
+muito interessante.
+
+Das três estratégias eu quis explicar bem para que essa teoria esteja na sua mente e a partir daí não
+
+é difícil você começar a pensar cenários e situações que fazem sentido.
+
+O uso de cada um deles na próxima aula a gente vai criar o projeto e vai começar a usar essas estratégias
+
+na prática para entender como o MAC facilita a nossa vida.
