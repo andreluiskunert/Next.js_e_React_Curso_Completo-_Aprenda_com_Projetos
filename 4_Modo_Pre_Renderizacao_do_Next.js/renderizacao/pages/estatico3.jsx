@@ -1,17 +1,19 @@
 export function getStaticProps() {
     return {
-        revalidate: 7, // segundos!
-        props: {
+        revalidate: 7,
+          props: {
             numero: Math.random()
+          }
         }
     }
-}
+
 
 export default function Estatico3(props) {
     return (
-        <div>
-            <h1>Estático #03</h1>
-            <h2>{props.numero}</h2>
-        </div>
+     <div>
+        <h1>Estatico #03</h1>
+        <p>Aqui tem:</p>
+        <h2>{props.numero}</h2>
+     </div>
     )
 }
