@@ -1,16 +1,18 @@
-export function getServerSideProps() {
-    console.log('[Server] gerando props para o componente...')
+export  function getServerSideProps(){
+     console.log('[Server] gerando  Props pra o componente..')
     return {
-        props: {
+        props :{
             numero: Math.random()
         }
     }
 }
 
-export default function Dinamico1(props) {
+export default function Dinamico1(props){
     return (
         <div>
-            <h1>Dinâmico #01</h1>
+            <h1>Dinamico01</h1>
+            <p>Aqui tem Dinamico #01</p>
+            <marquee> explica sobre assunto</marquee>
             <h2>{props.numero}</h2>
         </div>
     )
