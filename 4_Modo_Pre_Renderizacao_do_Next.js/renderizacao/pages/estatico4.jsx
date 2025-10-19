@@ -19,7 +19,8 @@ export default function Estatico4(props) {
     return (
         <div>
             <h1>Estático #04</h1>
-           <ul>
+           <ul> 
+            <h2>Meus produtos:</h2>
             {renderizarProdutos()}
            </ul>
         </div>
