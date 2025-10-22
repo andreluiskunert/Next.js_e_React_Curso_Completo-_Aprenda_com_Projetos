@@ -1,0 +1,11 @@
+Nova estrutura de pastas - Next 13
+
+Fala, Cod3rs. Tudo bom? Espero que sim. Venho aqui para informá-los que a partir do next 13 houve mudanças na forma de criar o projeto e você tem que se atentar na hora de responder algumas perguntas.
+
+Por exemplo, para que a estrutura de pastas do seu projeto recém-criado seja igual a do professor é necessário responder “No” para a pergunta sobre app router, isso porque, esse diretório modifica bastante a forma de trabalhar com o next. Então responda "No" para a pergunta "Use App Router (recommended)?" no momento da criação do seu projeto:
+
+Vale ressaltar que você só deve responder "Yes" para as coisas que você for usar. Por exemplo, vai usar typescript? Se sim, então responda "Yes", caso contrário responda "No". Isso vale para todas as outras perguntas.
+
+Mas no caso da pergunta sobre o App Router a resposta é NO. Com isso sua estrutura será igual a da aula:
+
+Espero ter ajudado, um abraço e bons estudos. 👾
