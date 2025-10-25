@@ -1,0 +1,133 @@
+Então nós vamos criar uma outra classe chamada resposta apontou.
+
+Assim escrevi aqui eu vou definir também uma classe chamada Resposta móvel e nós vamos definir nessa
+
+classe A resposta a três atributos o primeiro atributo vai ser o valor ou não o valor do tipo histeria
+
+ou show como vocês aqui no script você pode usar bala ou por exemplo mais ou usando o padrão do script.
+
+Eu vou colocar um atributo para dizer se essa resposta certa ou não é tão bonita.
+
+E finalmente tem um atributo aqui que é o atributo revelada.
+
+Se essa resposta ela foi revelada ou não quer dizer a resposta revelada quer dizer que o usuário clicou
+
+nela e quando ele clica ele mostra tanto a resposta certa.
+
+E caso o usuário não tenha acertado ele também mostra a resposta errada então ele vai revelar a resposta
+
+fazem naquele Felipe naquela animação de acesso para que a gente possa trocar digamos assim no Estado
+
+diz o texto do valor da resposta pra o resultado se aquela resposta a resposta certa ou não.
+
+Esse também é um atributo Bulent é que a gente vai fazer o mesmo processo que a gente fez na outra classe
+
+definiu o construtor.
+
+Então o valor vai ser um valor do tipo string e nós teremos aqui a resposta certa.
+
+Vai ser um valor bom é revelada inicialmente vai receber como falso esses dois valores aqui são valores
+
+obrigatórios eu preciso dizer que qual o valor da resposta e se ela é a resposta certa ou não.
+
+Já o valor de revelada ele por padrão começa como falso ou seja a resposta não fica revelada ele vai
+
+mostrar os itens a resposta.
+
+Caso o usuário comece a interagir com o sistema a esse valor eventualmente pode passar a ser verdadeiro.
+
+Então inicia aqui.
+
+Samy é isso primeiro falou recebe o valor certa recebe um valor de certa e finalmente revelada recebe
+
+o valor que é revelada.
+
+A gente vai criar aqui os mesmos métodos aqui gatas né.
+
+Falou sério não tem problema criar Get 3 aqui porque a gente tá trabalhando com um objeto que não vai
+
+ser mutável então a gente vai ter esse cuidado assim como a gente teve na outra aplicação tá então um
+
+valor.
+
+Vou definir agora certa.
+
+E finalmente nós teremos o último atributo que vai definir se a resposta foi revelada.
+
+Pronto a gente criou a mesma estrutura no exemplo passado.
+
+Por enquanto não é uma classe anêmica sem grandes segredos então criou o construtor Sales e os valores
+
+temos o metro no seguinte com relação a esse atributo respondida que a gente não tem um atributo mais
+
+a gente tem um método GET que a gente vai fazer agora a implementação desse método e ele é super simples
+
+basicamente vai fazer o seguinte eu vou ter que primeiro substituir obviamente em vez de IMI eu vou
+
+ter que a resposta móvel ele já importou ali pra mim e eu vou substituir aqui e vai ter agora o modelo
+
+né.
+
+Vai ser um rei de respostas.
+
+Legal uma vez que eu tenho uma rede de respostas que eu posso fazer isso só Let It.
+
+Resposta off desse ponto resta ali expostas a gente vai percorrer cada uma das respostas e aqui eu tento
+
+não fazer um teste em si.
+
+Resposta ponto revelada ou seja se existe alguma resposta revelada significa que essa pergunta foi respondida
+
+então vou colocá lo caso contrário ele vai tornar falso ou seja não existe nenhuma resposta revelada
+
+ainda.
+
+Em outras palavras essa pergunta não foi respondida.
+
+Certo legal a apresentação Supersimples para a gente definir aqui se a resposta mas muda as respostas
+
+está revelado ou não porque aí eu sei se a pergunta foi respondida existe uma ou outra forma de implementá
+
+la usando o Windows mas eu não vou colocar aqui porque vai ficar um pouco mais complicado a explicação
+
+é essa forma que é claro o suficiente pra eu diria que 98 por cento das pessoas entenderem né.
+
+Se você conhece JavaScript sabe o que eu estou fazendo aqui.
+
+Um laço em cima de todos os elementos dessa Rei pega mais.
+
+Basta uma resposta estiver revelada.
+
+Automaticamente eu sei que a pergunta foi respondida se eu fosse fazer essa mesma implementação com
+
+Windows ficaria um pouco mais complicado embora a quantidade de linhas aqui até ficasse menor.
+
+A mais importante para a gente é mais importante ter clareza do que necessariamente ter uma quantidade
+
+pequena de linhas.
+
+Legal então nós temos aqui quatro atributos que eu tenho cinco métodos betas ou seja um dos nossos metros
+
+betas não tem um atributo ele é calculado automaticamente a partir das respostas que foram dadas pra
+
+essa pergunta legal então a gente tem aqui o básico do nosso modelo questão e resposta a gente já integrou
+
+os dois.
+
+Já fizemos aqui inclusive o uso das respostas para gente ter certeza se a pergunta foi respondida ou
+
+não na próxima aula a gente vai começar a trabalhar com a nossa API e a partir do momento que a gente
+
+for começar a desenvolver a API a gente vai mexer novamente aqui nos modelos para criar alguns metros
+
+a mais para a gente ter a funcionalidade que achamos que é legal.
+
+E aí a gente vai evoluindo o modelo Apache momento que for surgindo necessidades dentro da nossa aplicação
+
+e assim fica mais natural e fica mais fácil você entender de onde foi que eu tirei determinados metros
+
+e por quê.
+
+Quem pra mim ter terminado os métodos.
+
+Então na próxima nós vamos começar a desenvolver a API da nossa aplicação.
