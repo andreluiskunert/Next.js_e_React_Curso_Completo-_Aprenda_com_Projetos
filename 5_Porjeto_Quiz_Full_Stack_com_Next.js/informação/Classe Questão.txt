@@ -170,4 +170,4 @@ moda que vai ter alguns atributos importantes dentro da resposta que integra iss
 
 construir os outros métodos do rapaz no momento que a gente já tem uma API pra gente tá está então na
 
-próxima aula a gente continua e até lá.
+próxima aula a gente continua e até l
