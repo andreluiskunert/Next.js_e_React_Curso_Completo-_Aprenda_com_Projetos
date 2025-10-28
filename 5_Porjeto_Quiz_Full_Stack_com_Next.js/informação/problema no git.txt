@@ -1,0 +1,245 @@
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git add .
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git commit -a -m "Arquivo deletados"
+[main 96484f1] Arquivo deletados
+ 38 files changed, 26 insertions(+), 5914 deletions(-)
+ create mode 100644 "5_Porjeto_Quiz_Full_Stack_com_Next.js/informa\303\247\303\243o/Corrigir_Erro_Git.txt"
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/.eslintrc
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/.gitignore
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/README.md
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Botao.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Enunciado.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Estatistica.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Questao.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Questionario.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Resposta.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Temporizador.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/functions/arrays.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/model/questao.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/model/resposta.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/next-env.d.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/next.config.js
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/package-lock.json
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/package.json
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/_app.js
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/api/bancoDeQuestoes.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/api/questionario/index.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/api/questoes/[id].ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/index.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/resultado.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/public/favicon.ico
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/public/vercel.svg
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Botao.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Enunciado.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Estatistica.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Questao.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Questionario.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Resposta.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Resultado.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Temporizador.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/globals.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/tsconfig.json
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ 
+ *  History restored 
+
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git add. 
+git: 'add.' não é um comando git. Veja 'git --help'.
+
+The most similar command is
+        add
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git add .
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git commit -a -m "bora codar com next-react.js_2025"
+[main c79f9cf] bora codar com next-react.js_2025
+ 35 files changed, 5821 insertions(+)
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/.eslintrc
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/.gitignore
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/README.md
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Botao.tsx
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Enunciado.tsx
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Estatistica.tsx
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Questao.tsx
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Questionario.tsx
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Resposta.tsx
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Temporizador.tsx
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/functions/arrays.ts
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/model/questao.ts
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/model/resposta.ts
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/next-env.d.ts
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/next.config.js
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/package-lock.json
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/package.json
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/_app.js
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/api/bancoDeQuestoes.ts
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/api/questionario/index.ts
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/api/questoes/[id].ts
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/index.tsx
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/resultado.tsx
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/public/favicon.ico
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/public/vercel.svg
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Botao.module.css
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Enunciado.module.css
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Estatistica.module.css
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Questao.module.css
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Questionario.module.css
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Resposta.module.css
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Resultado.module.css
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Temporizador.module.css
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/globals.css
+ create mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/tsconfig.json
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git push
+Uploading LFS objects: 100% (1/1), 106 MB | 0 B/s, done.                                                                                                                      
+Enumerating objects: 45, done.
+Counting objects: 100% (45/45), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (34/34), done.
+Writing objects: 100% (36/36), 96.70 MiB | 1.79 MiB/s, done.
+Total 36 (delta 15), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (15/15), completed with 5 local objects.
+remote: error: Trace: 8f393065b6e36bb9184c98940a63ba18b73a28634d30d31274c56d24890847c8
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz_Exame.zip is 100.88 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/andreluiskunert/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/andreluiskunert/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos.git'
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ 
+ *  History restored 
+
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git add .
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git commit -a -m "Estou Resolver com um problema no github, Resolver qdo for possivel..."
+[main 76ff855] Estou Resolver com um problema no github, Resolver qdo for possivel...
+ 35 files changed, 5821 deletions(-)
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/.eslintrc
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/.gitignore
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/README.md
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Botao.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Enunciado.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Estatistica.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Questao.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Questionario.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Resposta.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Temporizador.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/functions/arrays.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/model/questao.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/model/resposta.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/next-env.d.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/next.config.js
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/package-lock.json
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/package.json
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/_app.js
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/api/bancoDeQuestoes.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/api/questionario/index.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/api/questoes/[id].ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/index.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/resultado.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/public/favicon.ico
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/public/vercel.svg
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Botao.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Enunciado.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Estatistica.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Questao.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Questionario.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Resposta.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Resultado.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Temporizador.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/globals.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/tsconfig.json
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git push
+Uploading LFS objects: 100% (1/1), 106 MB | 0 B/s, done.                                                                                                                      
+Enumerating objects: 46, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (35/35), done.
+Writing objects: 100% (37/37), 96.70 MiB | 5.19 MiB/s, done.
+Total 37 (delta 16), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (16/16), completed with 5 local objects.
+remote: error: Trace: 0cde114a57eef2c880b262d2da9894967954610f3c58dbb2bb676cf3883efa44
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz_Exame.zip is 100.88 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/andreluiskunert/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/andreluiskunert/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos.git' 
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git add .
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git commit -a -m "Estou Resolver com um problema no github, Resolver qdo for possivel..."
+[main 76ff855] Estou Resolver com um problema no github, Resolver qdo for possivel...
+ 35 files changed, 5821 deletions(-)
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/.eslintrc
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/.gitignore
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/README.md
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Botao.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Enunciado.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Estatistica.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Questao.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Questionario.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Resposta.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/components/Temporizador.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/functions/arrays.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/model/questao.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/model/resposta.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/next-env.d.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/next.config.js
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/package-lock.json
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/package.json
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/_app.js
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/api/bancoDeQuestoes.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/api/questionario/index.ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/api/questoes/[id].ts
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/index.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/pages/resultado.tsx
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/public/favicon.ico
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/public/vercel.svg
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Botao.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Enunciado.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Estatistica.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Questao.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Questionario.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Resposta.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Resultado.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/Temporizador.module.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/styles/globals.css
+ delete mode 100644 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz/tsconfig.json
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git push
+Uploading LFS objects: 100% (1/1), 106 MB | 0 B/s, done.                                                                                                                      
+Enumerating objects: 46, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (35/35), done.
+Writing objects: 100% (37/37), 96.70 MiB | 5.19 MiB/s, done.
+Total 37 (delta 16), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (16/16), completed with 5 local objects.
+remote: error: Trace: 0cde114a57eef2c880b262d2da9894967954610f3c58dbb2bb676cf3883efa44
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz_Exame.zip is 100.88 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/andreluiskunert/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/andreluiskunert/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos.git'
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git rm --cached "5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz_Exame.zip"
+fatal: pathspec '5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz_Exame.zip' não encontrou nenhum arquivo
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git add .gitignore
+git commit -m "Removendo arquivo .zip grande do histórico"
+No ramo main
+Seu ramo está à frente de 'origin/main' por 8 submissões.
+  (use "git push" to publish your local commits)
+
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
+        "5_Porjeto_Quiz_Full_Stack_com_Next.js/informa\303\247\303\243o/problema no git.txt"
+
+nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
+desenvolvedor@desenvolvedor-ThinkPad-T440p:~/Cod3r/Next .js_e_React_Curso_Completo-_Aprenda_com_Projetos/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos$ git push origin main
+Uploading LFS objects: 100% (1/1), 106 MB | 0 B/s, done.                                                                                                                      
+Enumerating objects: 46, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (35/35), done.
+Writing objects: 100% (37/37), 96.70 MiB | 5.86 MiB/s, done.
+Total 37 (delta 16), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (16/16), completed with 5 local objects.
+remote: error: Trace: 58a796aaf9a533d2ac53a20e32e78f859da5394df6395af39327089256bdd406
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File 5_Porjeto_Quiz_Full_Stack_com_Next.js/quiz_Exame.zip is 100.88 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/andreluiskunert/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/andreluiskunert/Next.js_e_React_Curso_Completo-_Aprenda_com_Projetos.git'
