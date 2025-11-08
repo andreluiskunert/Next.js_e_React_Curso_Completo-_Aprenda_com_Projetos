@@ -1,0 +1,109 @@
+Agora nós vamos criar mais um serviço na nossa API e eu vou colocar esse serviço dentro de uma pasta
+
+que eu vou chamar aqui questionário e dentro do caixa na área.
+
+Até poderia criar um outro arquivo com o mesmo padrão.
+
+Ele poderia ser um ponto assim mais aqui no nosso nossa aplicação a gente não vai ter vários questionários
+
+imagina um sistema de questionário que você vai criar não deixou criar um novo questionário deixa o
+
+celular chamar essas questões aqui.
+
+Então você poderia ter o pedido questionário mas no nosso caso gente não vai fazer uma aplicação que
+
+vai envolver o ID do questionário então vou colocar aqui um index e ele vai sempre retornar todas as
+
+perguntas cadastradas dentro do nosso banco de questões.
+
+Então aqui quando você vai criar uma nova API então você vai se portar por padrão.
+
+Uma função e essa função recebe requisição e coaching a resposta é que eu posso por exemplo usar um
+
+telefone.
+
+Se você pegar a resposta um status e retornar um dia é só isso que já o suficiente para que a gente
+
+tem um serviço funcionando.
+
+Então como é simples a resposta eu vou colocar aqui estátuas por exemplo DUZENTOS E.
+
+E aqui você pode por exemplo sei lá Teste 1 2 3.
+
+Se a gente executar essa lei RL então aqui é questionário executado.
+
+Ele retornou o trecho 2.3 ou seja está funcionando o que é que eu vou querer fazer.
+
+Eu vou pegar aqui o banco de questões.
+
+Então pago aqui não está importando mais eu vou colocar aquela importe em questões foram ponto Barra
+
+banco de questões e eu vou simplesmente pegar as questões que é esse aí aqui com todas as instâncias
+
+médicas estão Model e eu vou aplicar aqui o Map e nesse Map eu vou ter a questão e eu vou simplesmente
+
+retornar a questão ponto aí.
+
+Dessa forma eu vou retornar com a id todas as questões relacionadas a esse formulário.
+
+Esse questionário melhor dizendo Se eu tivesse vários eu poderia pegar o questionário por aí e pagar
+
+todas as questões pra em vez de pagar todas as questões de uma vez.
+
+Cada vez que eu vou mostrando uma questão eu posso ir pegando ela fazer uma requisição.
+
+Além do mais no meu contexto faz mais sentido eu trazer uma requisição só com todas as questões de uma
+
+vez sem problema a gente também poderia fazer nessa estratégia mais ou separar já que é um sistema simples
+
+Eu queria mostrar pra vocês pegando essas informações várias vezes e indo para a próxima questão e aí
+
+a gente vai trabalhar desse modelo aqui dependendo da aplicação a gente poderia usar uma estratégia
+
+diferente.
+
+Então olhando aqui o resultado a gente vai receber o rei com as duas questões cadastradas.
+
+Eu vou aproveitar essa oportunidade pra cadastrar mais outras duas perguntas que eu vou copiar aqui
+
+porque faz sentido a gente ficar digitando certo mas eu vou pausar o vídeo caso você não tenha baixado.
+
+A terceira pergunta qual o coletivo de cães é aqui eu tenho as respostas.
+
+Três respostas erradas e a resposta certa é a pergunta de 204 qual é o triângulo que tem todos os lados
+
+diferentes.
+
+E aí você tem três respostas erradas e uma resposta certa.
+
+Com essa alteração aqui no nosso banco de dados entre aspas aí você vai ver que agora a gente tem 306
+
+202 203 e 204.
+
+Aí não importa muito mas ele pode ser qualquer valor não é para a gente significativo o importante é
+
+a gente pagar os corretos e aí em cima disso é que a gente vai fazer na próxima aula mais ou menos criar
+
+uma função que vai nos ajudar a embaralhar essas informações tanto no que diz respeito às respostas
+
+para que a gente possa colocar a resposta certa como sendo lá o item a item c o item b o D.
+
+Consegui fazer essa randômico ação né consegui analisar as respostas e também eu quero embaralhar a
+
+resposta desse serviço que eu acabei de criar um beijo retornar sempre às questões da mesma ordem.
+
+Eu quero que ele retorne para mim as questões de ordem isso é ordem aleatória pra que daí a gente consiga
+
+ter um pouco mais de dificuldade em relação à exposição dessas perguntas o importante é a gente mostrar
+
+a pergunta certa consegui fazer o batimento da resposta certa pra saber.
+
+Acertou ou não essa pergunta legal e com isso com esse embaralha a mente que a gente vai fazer na próxima
+
+aula a gente praticamente encerra nossa API e começa a trabalhar com a parte da aplicação mesmo com
+
+os nossos componentes aqui e com a nossa aplicação Net no que diz respeito à parte frontal que a gente
+
+já trabalhando com a aplicação mexe mais num contexto mais voltado para o bullying então na próxima
+
+aula a gente faz essa função e nós vamos criar pra isso mais uma pasta eu faço.
