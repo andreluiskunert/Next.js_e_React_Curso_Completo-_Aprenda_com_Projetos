@@ -1,0 +1,261 @@
+Legal o pessoal agora mais vamos implementar esse método que o usuário informa o índice da resposta.
+
+Selecionei a resposta de indecisos 0 22 23 e aí a partir do índice fornecido ele vai gerar uma nova
+
+instância de questão móvel refletindo a seleção do usuário.
+
+Então para isso a gente vai implementar esse método agora a primeira coisa que eu vou calcular aqui
+
+é saber se o usuário acertou ou não a resposta.
+
+Então pra fazer isso é muito simples.
+
+Eu vou pegar aqui as respostas a partir do índice que foi passado para que o índice.
+
+E eu vou chamar o atributo certa.
+
+Lembrando que se o usuário passa aqui o índice inválido isso aqui vai dar problema não é porque não
+
+vai encontrar vai dar uma definição não posso colocar isso operadora pra só chamar esse atributo caso
+
+isso aqui esteja com o valor acertado.
+
+Tá bom.
+
+Então acertou.
+
+Vai refletir isso aqui o sim eu vou pagar resposta pelo índice se tiver certo significa que o usuário
+
+acertou o item que é que eu vou fazer agora vou precisar gerar novas respostas.
+
+Por quê.
+
+Porque eu precisar revelar pelo menos uma das respostas que o Fake usuário selecionou.
+
+E se o usuário tivesse selecionado a resposta errada eu vou revelar não apenas a resposta que ele selecionou
+
+mas também a resposta certa é que vocês viram lá no começo por não mostrar visão geral do sistema sempre
+
+que eu aplicava na resposta errada ele mostrava também a resposta certa e esse comportamento pode ser
+
+alterado caso você não queira que esse comportamento aconteça dessa forma.
+
+Então se você não quer revelar a resposta certa esse é o momento que você vai mexer pra que a resposta
+
+certa não seja revelada caso o usuário é bom então vou colocar que desse ponto estas respostas vou usar
+
+o MEP pra isso.
+
+Aqui no Mac eu vou receber o valor que é uma resposta então vou colocar aqui a resposta e o segundo
+
+parâmetro vai ser o ID sim eu vou chamar aqui.
+
+Tá certo.
+
+A primeira coisa que eu quero saber é se eu estou percorrendo a resposta selecionada então vou colocar
+
+a resposta selecionada.
+
+é igual a quando o índice aqui foi passado aqui fora é igual essa letra aí.
+
+Então se o 25 foi passado no método ficou igual.
+
+Aí significa que eu estou trabalhando com a resposta selecionada.
+
+No meu caso aqui só quer que eu vou querer fazer.
+
+Eu vou querer criar um método que vai pegar resposta e revelar resposta.
+
+Então para isso eu vou criar um método dentro de resposta que ele vai ser responsável por revelar a
+
+resposta.
+
+Então esse método é muito simples.
+
+Ele funciona como se fosse um cetro.
+
+Só que ele vai ser transformar esse atributo verdadeiro não importa qual o valor que ele esteja.
+
+Ele vai sempre retornar uma nova instância de resposta.
+
+Então vou criar aqui um método chamado vê la como ação né.
+
+Para ficar mais claro que se trata de um comportamento e aqui eu vou retornar mil.
+
+Resposta modelo resposta modo vai receber o mesmo valor.
+
+Eu não vou modificar isso vai ter o mesmo atributo ser a resposta certa ou não.
+
+Só que a revelada eu vou retornar como tu.
+
+Esse é o comportamento desse método revela.
+
+O que significa agora que eu vou aqui no mapa e mapear as respostas e vai ter dois cenários que eu vou
+
+querer revelar.
+
+Resposta O primeiro cenário e se a resposta for a resposta selecionada ou seja essa cópia aqui ou se
+
+a resposta for selecionada significa que eu vou querer pegar a resposta.
+
+Ponto revela.
+
+E ele vai revelar a resposta.
+
+Caso contrário ele vai simplesmente retornar.
+
+A resposta que eu estou percorrendo já que eu estou percorrendo aqui o MEP em cima desse valor aqui
+
+esse valor é cada uma das respostas que tem dentro desse rei.
+
+Esse é o primeiro cenário.
+
+Se for a resposta selecionada eu preciso revelar essa resposta porque essa é a resposta que o usuário
+
+clicou.
+
+Ele quer ver se ela é a resposta certa ou não.
+
+O outro cenário que eventualmente eu posso ou não revelar se eu quiser depende da minha lógica e se
+
+a resposta for a resposta certa porque eu vou tanto revelar a resposta que o usuário selecionou como
+
+também a resposta certa.
+
+Se as duas coincidirem ele só vai revelar uma se não coincidir ele vai revelar duas que o usuário selecionou.
+
+Que é errada.
+
+Mas a resposta certa então até poderia criar aqui.
+
+Por exemplo deve vê la e os dois cenários e se for a resposta selecionada ou se a resposta.
+
+Ponto certa o verdadeiro então aqui deve revelar se deve revelar ele vai chamar resposta ponto a revelar.
+
+E esse método vai me devolveu a nova instância de resposta.
+
+E aqui no caso se não devem revê la eu vou pagar a própria resposta que eu já tenho e vou retornar a
+
+ela legal com isso aqui no final.
+
+Agora a gente tem como criar uma nova instância de questão agora com os a Justiça.
+
+O Haiti permanece o mesmo.
+
+O enunciado da questão com certeza permanece o mesmo enunciado.
+
+As respostas vai se encerra aí que eu acabei de gerar e a flag.
+
+Se o usuário acertou não foi exatamente a primeira coisa que eu calculei que incitam esses dois valores
+
+aqui são novos né.
+
+Tanto o acertou como as respostas são novas mais Way é o enunciado.
+
+A gente vai pegar a própria instância atual então usa e desse ponto aí poderia ser desse ponto a está
+
+aí e desse ponto resta enunciar tanto faz o pH do método Guedes como pegar um atributo diretamente e
+
+no final eu peguei as respostas que eu viria a partir do MEP e o acertou a parti desse cálculo que eu
+
+fiz aqui na minha 41 pra gente tá está isso aqui a gente pode usar temporariamente aqui o nosso serviço
+
+que é o seguinte paga aqui a questão selecionada.
+
+Ponto.
+
+Responder com o índice zero.
+
+Tá e aí depois vou pedir pra ele transformar pra objeto.
+
+Vou só mais aqui não constante objeto.
+
+Vou passar esse objeto pra ser enviado aqui legal.
+
+Então agora a gente vai estar recebendo.
+
+A questão já respondida sempre de forma fixa com a resposta de iniciais eram.
+
+O que é que aconteceu.
+
+Eu vou dar um fecho aqui ele vai dizer que essa está revelada essa que não era a resposta certa era
+
+a suposta falsa e a revelada foi a segunda que a resposta certa essa que não foi revelada porque a resposta
+
+errada e eu não selecionei ela é essa aqui também não foi revelada porque ela não era a resposta certa
+
+usuário acertou não usuário não acertou.
+
+Então aqui a resposta é falso.
+
+Se eu der um refresh como ele vai gerar aqui as respostas de forma aleatória agora o usuário selecionou
+
+o elemento.
+
+A resposta é de zero que era a resposta certa então certa TRU revelada.
+
+Ele não vai abrir mais nenhuma outra resposta porque ele de fato acertou a resposta e significa que
+
+o usuário acertou a resposta Sim.
+
+Então essa é a lógica que a gente tem e se a gente quiser colocar um atributo a mais aqui na questão
+
+é exatamente esse atributo aqui só pra dizer se ela é respondido ou não.
+
+Basta eu vim aqui para o objeto e acrescentar esse atributo então por exemplo se Dida e a gente pode
+
+usar desse ponto respondida para acrescentar esse atributo aqui no objeto.
+
+Então agora a gente vai ter mais esse atributo sendo exibido aqui onde foi respondida foi porquê.
+
+Porque pelo menos um item está revelado que nesse caso aqui foi o item certo.
+
+Legal e a ordem que você coloca aqui se eu quiser colocar esses dois atributos antes da resposta já
+
+que postam aqui fica um pouco maior.
+
+Você pode também modificar a ordem não importa tanto para a gente não 213 anunciada.
+
+Esse foi respondido TU ACERTOU.
+
+Falso por quê.
+
+Porque ele selecionou essa primeira que não era a resposta certa e a resposta certa era o item 2 matilha
+
+legal então está funcionando o nosso método que ele vai ser responsável por responder.
+
+Ali eu não quero revelar a resposta certa beleza.
+
+Basta você suprimir isso seu suprimir.
+
+Isso significa que agora seu deck não é Franchi e ele não acertou a resposta que ele selecionou foi
+
+só está revelada a resposta certa essa está revelada não exatamente porque agora já não estou revela
+
+a resposta certa tudo a questão é definir qual lógica você prefere e vou deixar essa lógica que é a
+
+lógica original que eu trabalhei dentro do planejamento.
+
+Voltando aqui para o serviço só para a gente tirar essa parte aqui ou eu não vou querer mais responder
+
+o item não vou querer salvo aqui nessa constante vou passar isso diretamente aqui pro dia isso.
+
+Agora teremos um objeto gerado foi respondida não acertou não acertou porque também não foi respondida.
+
+E esse atributo pode colocar ele ou não é só uma questão de querer ou não topa até por quem não vai
+
+fazer muita diferença na hora de converter isso aqui para o objeto novamente já que ele é um valor calculado.
+
+Então pessoal e isso acredito que a gente finalizou a nossa API.
+
+A gente vai agora voltar a gente tem mais alguns detalhes coisas que a gente vai precisar trabalhar
+
+mas a gente vai trabalhar no contexto dos componentes que a gente vai precisar de algumas outras funções
+
+dentro de questão e dentro de resposta que são os nossos dois modelos mais quando a gente tiver necessidade.
+
+A gente lamenta Eu diria que 90 por cento da nossa API já está pronta funcional agora a gente vai trabalhar
+
+com os componentes então na próxima aula a gente retoma pra iniciar os nossos primeiros componentes
+
+na nossa aplicação de chamar liquidez.
