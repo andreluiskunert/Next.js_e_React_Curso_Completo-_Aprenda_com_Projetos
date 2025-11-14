@@ -1,0 +1,177 @@
+Então o pessoal agora nós vamos começar a trabalhar com os nossos componentes e para isso eu vou criar
+
+uma nova pasta chamada componentes dentro da pasta componentes.
+
+Eu vou criar o componente que vai representar muita questão.
+
+Na verdade a questão vai ser composta por outros componentes.
+
+A gente vai desenvolvendo ao longo das aulas então vou criar aqui um arquivo ponto TS xn para a gente
+
+ter o script juntamente com o IAC e nós vamos começar a criar o nosso componentes que estão então aqui
+
+vou exportar por padrão uma função chamada Questão e esse componente aqui vai saber se vou aproveitar
+
+que eu estou com tais scripts e vou definir uma interface para a gente definir o que seria a questão
+
+propôs e inicialmente eu vou receber o valor que vai ser uma questão então é saber que um valor que
+
+vai ser um questão móvel e eu vou importa a questão logo.
+
+Então eu coloco aquele porte em questão Model ponto o ponto Barra móvel Barra questão legal e aqui a
+
+gente vai passar por questão propos como parâmetro para o nosso componente.
+
+Então aqui dentro como vou tratar isso como questão para ficar um pouco mais claro aqui no próprio ponto
+
+valor.
+
+E nós vamos retornar que é o nosso JS x definiu onde vivi e nessa divisão eu vou já criar também o nosso
+
+estadio que vai ser questão ponto de modo meio ponto CSS e eu vou criar aqui uma classe chamada questão
+
+já para a inicial vou colocar aqui um display Flex beleza com isso a gente vai importar que importe
+
+e isso eu sofri um ponto.
+
+Ponto Barra está se Bah completa na então questão do módulo e ponto CSS.
+
+E aqui a gente pode ter um Class meio mi para apontar para a estadios.
+
+Ponto.
+
+Questão legal com isso a gente já tem aqui uma estrutura que eu vou chamar aqui e colocar aqui um H
+
+que vai sair não vou deixar ele mais beleza cá estão e nós vamos dentro do nosso índex ponto essa que
+
+eu vou mandar ele aqui pra ts.
+
+Nós vamos ao TS x melhor tá eu vou apagar aqui o Red até a parte do futuro lá embaixo deixar só.
+
+E nós vamos eu posso até deixar aqui chamar só nosso componente em questão que por algum motivo eles
+
+não está importando o nome e ponto mole ou ponto CSS e também vai rodar.
+
+Então aqui a gente já poderia apagar ele que eu não vou usar e vou importa a questão.
+
+Eu estou dentro de países então time saí entrar em componentes Barra questão ponto s x m.
+
+Eu acho que ele tava reclamando de algum erro mas acho que deu certo agora.
+
+Coloquei aqui questão beleza o cara tá dizendo Aqui eu preciso passar a propriedade valor.
+
+Então a gente pode criar aqui o que seria uma questão Techint recebe mil questão modo eu vou passar
+
+aqui pra c.
+
+Vou abraçar um enunciado pra se sei lá melhor que eu vou passar aqui não Rei de strings não há rei de
+
+respostas então até a suposta móvel ponto errada vai ser verde.
+
+Eu gosto muito de preto né.
+
+Então vou colocar aqui pra pra ser preto então.
+
+Vermelha com o vermelho com verde e azul.
+
+é a resposta certa vai ser preta.
+
+Pronto.
+
+Colocar aqui.
+
+Certo.
+
+Mas aqui vai ser a pergunta a quem está melhor dizendo que eu vou passar aqui como falou pro meu componente.
+
+Agora a gente tem como está a questão até ele ficar digamos assim coerente com as nossas necessidades.
+
+Então se eu vou aqui em local roxo e dois pontos 13 mil a rodar não fizer ricochete vai aparecer o nosso
+
+componente inicial.
+
+Então a gente já tem a estrutura inicial para a gente tá está a última coisa que eu vou fazer aqui nessa
+
+aula só para a gente já modificar alguma coisa em relação a visual.
+
+Na verdade são duas coisas a primeira coisa e as duas envolvem mexer aqui com o nosso blog bolso ponto
+
+CSS.
+
+A primeira coisa que eu quero fazer é definir a cor de beco onde eu vou colocar isso aqui dentro do
+
+HTML Bari.
+
+Vou definir o background de cólon pra c 6 C 54 D.
+
+8 vai ser um roxo daqui a pouco a gente usou o nosso projeto.
+
+Outra coisa que eu vou querer também mexer vai ser colocar.
+
+A cor da fonte passa a ser branca.
+
+Então coloca a FFF colocamos a cor branca e eu vou mexer no Fonte.
+
+Fui militar ao fundo feminino.
+
+Eu vou colocar aqui embaixo pra que lhe seja aplicada a todos os nossos ornamentos.
+
+Não vou colocar aqui fontes ali pra c.
+
+Palpites palpites e caso não não acho vai ser um sem ser IFA nessa seara.
+
+Beleza.
+
+Como é que eu faço para obter essa fonte pop aqui.
+
+Eu posso entrar no pontes fontes ponto a ponto com.
+
+Vou procurar a fonte Poppins.
+
+Vou colocar aqui pra ele procurar onde pop IS 1 2 3 pop.
+
+Se achou a fonte eu vou colocar nela e vou pedir pra ele adicionar alguns pesos diferentes então por
+
+exemplo.
+
+Sem selecionar vou selecionar o 200.
+
+Nenhum vai ser itálico tal duzentos ou selecioná lo trezentos.
+
+Vou selecionar quatro centros.
+
+O 500 e o 700 quinhentos e 700 eu não vou usar todos não mas eu não lembro exatamente quais vou usar.
+
+Então vou selecionar essas fontes aqui.
+
+A gente já colocou mas se pode copiar daqui e colocar aqui a mesma coisa e em vez de usar um link eu
+
+vou usar um importe então estagnado importe apagar esse trecho que ele gerou e vou colocar dentro do
+
+meu CSS então vou colocar aqui no início um importe pra ele importar essa fonte e vou tirar esse fundo
+
+dos prêmios daqui.
+
+Então o nosso CSS global vai ficar dessa forma a arroba importe o RL e tal e essa parte aqui do HTML
+
+Bari com as informações a unica coisa que eu mudei foi o background e a cor da fonte e o fundo vermelho
+
+pra ser diferente.
+
+Por isso que eu também tirei o fundo de filme daqui do bar e obviamente importei a fonte para que a
+
+gente possa tê la aplicado no nosso projeto.
+
+Se a gente olhar aqui agora a gente já tem essa fonte de palpites sendo usada dentro do nosso projeto
+
+e a gente já está conseguindo visualizar a questão dentro aqui da nossa página principal então a gente
+
+vai trabalhar na questão por algumas aulas fazem os ajustes criando outros componentes também relacionado
+
+com um componente cá estão.
+
+Quando a gente terminar ele a gente passa para o componente questionário pra fazer o processo inteiro
+
+e depois a gente vai focar em alguns polimento finais como a questão de animação e coisas do tipo lagarto
+
+na próxima aula a gente continua trabalhando aqui no nosso componente questão e até lá.
