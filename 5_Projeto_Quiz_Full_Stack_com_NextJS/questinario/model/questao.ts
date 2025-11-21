@@ -2,6 +2,9 @@ import { embaralhar } from "../functions/arrays"
 import RespostaModel from "./resposta"
 
 export default class QuestaoModel {
+    embaralharRespostas() {
+        throw new Error('Method not implemented.')
+    }
     #id: number
     #enunciado: string
     #respostas: RespostaModel[]
