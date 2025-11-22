@@ -1,1 +1,56 @@
 Outro projeto que terei de reiniciar...
+Agora nós vamos criar a nossa aplicação seguindo o mesmo padrão que a gente fez em outros momentos aqui
+
+na época.
+
+Eu vou chamar o nome da aplicação com isso mas a gente vai desenvolver essa aplicação em português então
+
+é MPX criei NEXTSTEP quis executar.
+
+Ele vai instalar as dependências eu já vou fazer a configuração para projeto.
+
+é um projeto de script certo.
+
+Eu acho que é muito usado o tipo de gripe que cada vez mais as pessoas têm usado.
+
+Então acho que é bem interessante mostrar alguns projetos como script.
+
+Eu vou chamar o comando Tech.
+
+Na verdade os que fazem de uma forma um pouco mais independente de sistema operacional.
+
+Eu vou criar o arquivo sci fi ou colocar quero confiar.
+
+Coloca a equipe com um filho e pronto.
+
+Feito isso se ele tentar está lá e tem 1000 Davi.
+
+Ele vai dar um problema dizendo que eu preciso instalar essas dependências.
+
+Ok é um processo super rápido.
+
+E aí a gente vai estar agora com o script integrado.
+
+Ele vai criar para geek e vai complementar que a partir da configuração específica do Tape scripts bacalhau
+
+a gente já tem um arquivo preenchido.
+
+Nosso projeto criado é só a gente entrar aqui no Brasil e você vai ver que já está com a nossa aplicação
+
+funcionar legal rapidamente aqui.
+
+O nosso processo de configuração que você já conhece a gente já viu isso em outros capítulos e caso
+
+tem algum tipo de atualização o atualizá la no início do curso.
+
+Beleza então esse processo aqui se não tiver eventualmente compatível com a última versão lá no início
+
+do curso eu vou mostrar como fiz a configuração de um projeto do zero.
+
+Beleza então na próxima aula continua para começar a desenvolver.
+
+Eu vou iniciar o nosso projeto desenvolvendo a nossa API mas só isso Supersimples.
+
+Não vai ter acesso ao banco de dados mais para a gente entender algumas coisas relacionados à API dentro
+
+do NET ou praticar aquilo que a gente já sabe.
