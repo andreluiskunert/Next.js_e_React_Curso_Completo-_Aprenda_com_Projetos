@@ -1,6 +1,5 @@
 import { embaralhar } from "../functions/arrays"
 import RespostaModel from "./resposta"
-
 export default class QuestaoModel {
     #id: number
     #enunciado: string
