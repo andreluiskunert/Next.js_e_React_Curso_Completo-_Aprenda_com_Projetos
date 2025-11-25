@@ -47,7 +47,7 @@ export default function Home() {
         <marquee className="mt-10 text-lg font-medium text-zinc-700 dark:text-zinc-300">
           Desenvolvido com Next.js + React • Projetos no GitHub • Full Stack Developer
         </marquee>
-
+{/* Estão revisão... */}
       </main>
     </div>
   );
