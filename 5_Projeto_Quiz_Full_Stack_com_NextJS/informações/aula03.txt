@@ -1,0 +1,99 @@
+Na aula passada nós terminamos ela com um problema que é o fato de que não está sendo retornado nada.
+
+A partir da nossa API a gente pegou a primeira questão é que a gente definiu dentro do nosso banco de
+
+questões até tirar esses espaços aqui.
+
+O fato é que isso não está sendo suficiente pra mostrar nada aqui na resposta.
+
+O que é que nós vamos fazer lá dentro do na nossa classe de modelo que é a classe em questão.
+
+A gente poderia por exemplo criar aqui um método chamado de objectos por exemplo literal objetos.
+
+Só que a gente está trabalhando com um valor em português então eu vou chamar aqui o nome dessa desse
+
+método para objeto.
+
+Então vou colocar aqui um objeto e a gente basicamente vai retornar a um objeto literal como os atributos
+
+e os valores relacionados aos atributos dessa classe.
+
+Então nós temos quatro atributos aqui que eu vou retornar vou colocar aqui pra si o enunciado respostas
+
+e acertou por enquanto respostas eu vou colocar um Harry vazio vou colocar aqui o enunciado para recebi.
+
+A partir desse ponto mais enunciado a mesma coisa eu vou fazer aqui não é só aqui apontando para a vírgula
+
+enunciado de vírgula respostas vírgula acertou.
+
+Vai ser a mesma coisa.
+
+Acertou.
+
+Com relação a outro atributo esse atributo aqui respondido Eu não preciso me preocupar com ele agora
+
+porque ele vai ser um atributo calculado em cima desses outros valores e aqui dentro da nossa API e
+
+a gente pegar a questão e chamar aqui para objeto pra ele convertê lo para o objeto eu posso também
+
+colocá lo de forma mais explícita.
+
+Por exemplo V até para o objeto se você achar que fica mais claro é uma possibilidade e o fato aqui
+
+se fizer isso a gente vai ter aqui a estrutura inicial do nosso objeto eu vou voltar pra cima simplesmente
+
+para o objeto e vou muito ficar aqui.
+
+Beleza e a gente vai ter o nosso.
+
+Nossa aplicação funciona tudo tá salvo aqui sem problema legal.
+
+Só que eu preciso também fazer isso pra questão porque eu não posso simplesmente aqui colocar desse
+
+ponto hashtag respostas.
+
+No final das contas a gente não vai ter o valor que a gente quer ter simplesmente objetos vazios né.
+
+Ele entendeu que é o Harry entendeu que tem 1 2 3 4 respostas pra essa pergunta mais gente também precisa
+
+fazer algo pra pegar as informações dos atributos dentro da resposta.
+
+Seguindo essa mesma ideia lá na resposta Eu vou criar um método igual aqui dentro chamado para o objeto
+
+não estou retornando.
+
+Sou neto retornando ao objeto literal.
+
+JavaScript então tem três atributos valor certa é revelado então o pai aqui só para a gente tem como
+
+base coloca aqui.
+
+Só formatar colocar as vírgulas para diminuir os problemas a louça abalada.
+
+Aqui vai ser desse ponto falou desse ponto velada lembrando quem está trabalhando com o clássico sempre
+
+que a gente trabalha com o clássico e tem que usar muito essa palavrinha reservada desde que referem
+
+se a instância atual.
+
+Então agora beleza eu tenho aqui já um método que converte o meu objeto pra instância e para um objeto
+
+literal do JavaScript.
+
+Aqui na minha questão eu vou precisar fazer o seguinte não precisar pegar as respostas.
+
+Ponto Map.
+
+E aqui eu vou receber cada resposta e eu vou retornar.
+
+Resposta ponto para objeto.
+
+Ou seja eu também vou ter que pegar cada elemento converter para o objeto.
+
+Assim a gente vai ter agora a resposta sendo enviada de forma correta ao valor a b acerta.
+
+Falso não é certa nem revelada também falso.
+
+Assim ele mostra cada um dos valores.
+... 
+estou tentando estudar com um monitor..
