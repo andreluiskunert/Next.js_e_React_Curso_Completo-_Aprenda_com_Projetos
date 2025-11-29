@@ -1,0 +1,115 @@
+Pessoal agora nós vamos fazer a integração da nossa API com o Haiti que eu estou selecionando.
+
+Eu estou passando aqui por exemplo.
+
+Ele retorna a pergunta 306 eu passo aqui uai de sete.
+
+Ele vai retornar a mesma pergunta Então eu preciso integrar esse aí com a pergunta retornada para que
+
+faça sentido esse ponto.
+
+Então para isso eu vou entrar em API questões.
+
+Aí ponto teste a gente já sabe como obter o valor do Haiti que eu vou chamar aqui Haiti selecionado
+
+recebe a requisição ponto com esse ponto Haiti.
+
+Esse valor é um valor do tipo string então eu vou colocar aqui mais já para convertê lo para um valor
+
+numérico legal.
+
+Então o que é que nós temos aqui.
+
+Nós temos o rei de questões e eu vou aplicar aqui um filtro para que a gente possa filtrar apenas a
+
+questão que a gente tem interesse.
+
+E a questão que a gente tem interesse é que eu vou filtrar o passar por cada uma das questões que fazem
+
+parte aqui do meu banco de questões e aqui eu vou fazer questão ponto.
+
+Aí tem que ser exatamente igual ao Haiti selecionado ou mais informado pelo usuário legal.
+
+Então aquilo que nós temos como resposta é uma constante.
+
+Então voltei aqui sei lá questões eu recebeu a Rui como resposta embora esse aí vai ter apenas um único
+
+lamento essa expectativa então questões selecionadas vou colocar assim ou então vou colocar aqui lá
+
+para ficar mais claro.
+
+A única questão ou nada certo então.
+
+Beleza então que eu vou ter um rei nessa Rei eu vou fazer um teste se o tamanho foi igual a 1 significa
+
+que eu tenho uma questão.
+
+Caso contrário significa que eu não tem um cartão nem uma praça exibida porque o usuário passou a indicar
+
+que não tem uma questão associada.
+
+Então para a gente fazer isso que é como fazer eu vou pegar aqui e aí depois eu posso mexer no nome
+
+e pegar o primeiro elemento do Harry e vou colocar isso como sendo a questão selecionada.
+
+Recebi isso e aqui eu vou retornar a partir da resposta.
+
+Ponto e status.
+
+Vou dar um estatuto do zero porque eu consegui achar a questão.
+
+Vou chamar aqui só passando a questão selecionada é chamada aquele Metro que a gente criou para objeto
+
+que ele vai converter e vai retornar legal.
+
+A outra resposta possível.
+
+Aí a gente vai cair no debate né que existe em relação a que tipo de status eu devo retornar quando
+
+eu não encontrar um elemento no banco de dados.
+
+Então retorno estados 404 por exemplo aqui tem que mandar um sem digitar para enviar.
+
+De fato a resposta ou eu procuro um outro tipo de status mais adequado 404 ele vai da dizendo que a
+
+página não foi encontrada mais.
+
+Na verdade o que eu tenho aqui é mais um 204 que seria não tem conteúdo e a partir daqui eu posso mandar.
+
+Posso até procurar aqui 204 http: estatutos ou se a gente procurar aqui 204 e o sem conteúdo não o contém.
+
+E esse eu acho mais interessante mais tem discussões você pode dar uma olhada e pesquisar qual você
+
+acha mais interessante para retornar.
+
+Nesse caso o que a gente tem dois tipos de duas questões dentro da nossa base nele 306 e 212 pode testar
+
+inicialmente com esses dois ou 306 trouxe aqui e agora o 202 ele trouxe perguntas diferente tal 202
+
+qual é o fruto e o outro é qual bicho transmite a doença de Chagas.
+
+Se eu tentar aqui por exemplo um tá ele acabou voltando para outras 16 mas se a gente olhar aqui nas
+
+redes você vai ver que ele executou aqui a aquisição no Estado foi 204 exatamente o status de sem conteúdo
+
+porque você até acertou ao RL essa ou ela é válida mas não tem conteúdo pra o Haiti informado.
+
+Na minha visão faz mais sentido a gente retornar ao 204 já que existe um status específico para isso
+
+sem o conteúdo porque você passou a dizer que não tem na base do quê você retorna ao 4.
+
+Outro que dá a sensação de que você fez uma chamada para o RL errada tá.
+
+Então dê uma olhada na Internet.
+
+Vi algumas discussões sobre isso mas eu acho mais interessante retornar 1204.
+
+Então é isso que fizemos aqui.
+
+Integração básica com relação a Edina e pegamos o Aí pegamos aqui Rei e aqui verificamos o Tamanduá
+
+do pra saber se ele realmente foi encontrado o elemento conclui DISSO E FOI RETORNA senão retornam 204.
+
+Na próxima aulas vamos evoluir a nossa API e até lá.
+obs.:
+Amanha a tarde ou de noite buscarei soluções..
