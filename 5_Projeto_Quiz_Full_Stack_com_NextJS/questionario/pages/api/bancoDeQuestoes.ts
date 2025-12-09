@@ -101,3 +101,4 @@ const questoes: QuestaoModel[] = [
 ]
 
 export default questoes
+// Revisão:Segunda-feira,08/12/2025_De noite
