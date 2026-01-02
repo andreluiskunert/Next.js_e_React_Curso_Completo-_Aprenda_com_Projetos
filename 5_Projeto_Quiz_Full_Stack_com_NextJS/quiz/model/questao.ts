@@ -9,7 +9,7 @@ export default class QuestaoModel {
   constructor(
     id: number,
     enunciado: string,
-    respostas: string[],
+    respostas: RespostaModel[],
     acertou: boolean
   ) {
     this.#id = id
@@ -35,6 +35,10 @@ export default class QuestaoModel {
   }
   get respondida() {
     //FIXME: Implementar esse metodo 
+    for(let resposta of this.#respostas) {
+      console.log('Parabéns')
+      return true
+    }
     return false
   }
 }
