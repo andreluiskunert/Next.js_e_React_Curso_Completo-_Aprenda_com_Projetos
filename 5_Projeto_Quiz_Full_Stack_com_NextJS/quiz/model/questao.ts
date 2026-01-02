@@ -1,7 +1,9 @@
+import RespostaModel from "./resposta"
+
 export default class QuestaoModel {
   #id: number
   #enunciado: string
-  #respostas: string[]
+  #respostas: RespostaModel[]
   #acertou: boolean
 
   constructor(
@@ -32,7 +34,7 @@ export default class QuestaoModel {
     return this.#acertou
   }
   get respondida() {
-    //FIXME: Implementar esse metodo
+    //FIXME: Implementar esse metodo 
     return false
   }
 }
